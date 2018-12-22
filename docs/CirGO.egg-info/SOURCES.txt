@@ -1,0 +1,7 @@
+README.txt
+setup.py
+CirGO.egg-info/PKG-INFO
+CirGO.egg-info/SOURCES.txt
+CirGO.egg-info/dependency_links.txt
+CirGO.egg-info/requires.txt
+CirGO.egg-info/top_level.txt
