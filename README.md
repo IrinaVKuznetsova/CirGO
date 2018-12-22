@@ -84,7 +84,7 @@ Running under Windows
 1. Download the CirGO software from GitHub repository as zip folder (*Clone or Download*; *Download ZIP*). Unzip folder into a directory of your choice. For example, to the desktop.
 
 1. Navigate Anaconda Prompt terminal to the *setup.py* script of the CirGO software, which is located at the *docs* folder.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to *docs* folder): `(SelectEnvirName)> cd YOURPATH\CirGO_Py_VisualSoftware-master\docs`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to *docs* folder): `(SelectEnvirName)> cd YOURPATH\CirGO-master\docs`
 
 1. Create a source distribution for CirGO package. This step generates two folders *CirGO.egg-info* and *dist*.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Create a source distribution) : `(SelectEnvirName)> python setup.py sdist`
@@ -94,7 +94,7 @@ Running under Windows
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install CirGO package);`(SelectEnvirName)> pip install CirGO-0.1.0.tar.gz`
 
 1. Navigate to the *CirGO_Wind_Unix* folder.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the *CirGO_Wind_Unix* folder):`(SelectEnvirName)> cd YOURPATH\CirGO_Py_VisualSoftware-master\CirGO_Wind_Unix`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the *CirGO_Wind_Unix* folder):`(SelectEnvirName)> cd YOURPATH\CirGO-master\CirGO_Wind`
 
 
 
@@ -175,7 +175,7 @@ Running under Unix/Linux
 7. Download the CirGO software from GitHub repository as zip folder (*Clone or Download*; *Download ZIP*). Unzip folder into a directory of your choice. For example, to the desktop.
 
 8. Navigate Unix/Linux terminal to the *setup.py* script of the CirGO software, which is located at the *docs* folder.     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to *docs* folder): `(SelectEnvirName)$ cd YOURPATH\CirGO_Py_VisualSoftware-master\docs`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to *docs* folder): `(SelectEnvirName)$ cd YOURPATH\CirGO-master\docs`
 
 9. Create a source distribution for the CirGO package. This step generates two folders *CirGO.egg-info* and *dist*.    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Create a source distribution) : `(SelectEnvirName)$ python setup.py sdist`
@@ -185,7 +185,7 @@ Running under Unix/Linux
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install CirGO package);`(SelectEnvirName)$ pip install CirGO-0.1.0.tar.gz`
 
 11. Navigate to the *CirGO_Wind_Unix* folder.   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the *CirGO_Wind_Unix* folder):`(SelectEnvirName)$ cd YOURPATH\CirGO_Py_VisualSoftware-master\CirGO_Wind_Unix`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the *CirGO_Wind_Unix* folder):`(SelectEnvirName)$ cd YOURPATH\CirGO-master\CirGO_Unix`
 
 
 ### HELP PAGE  
@@ -271,7 +271,7 @@ Running under Mac
 1. Download the CirGO software from GitHub repository as zip folder (*Clone or Download*; *Download ZIP*). Unzip folder into a directory of your choice. For example, to the desktop.
 
 1. Navigate Mac terminal to the *setup.py* script of the CirGO software, which is located at the *docs* folder.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to docs folder): `(SelectEnvirName)$ cd YOURPATH\CirGO_Py_VisualSoftware-master\docs`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to docs folder): `(SelectEnvirName)$ cd YOURPATH\CirGO-master\docs`
 
 1. Create a source distribution for the CirGO package. This step generates two folders *CirGO.egg-info* and *dist.*  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Create a source distribution) : `(SelectEnvirName)$ python setup.py sdist`
@@ -281,7 +281,7 @@ Running under Mac
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install CirGO package):`(SelectEnvirName)$ pip install CirGO-0.1.0.tar.gz`
 
 1. Navigate to the *CirGO_Mac* folder.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the CirGO_Mac folder):`(SelectEnvirName)$ cd YOURPATH\CirGO_Py_VisualSoftware-master\CirGO_Mac`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the CirGO_Mac folder):`(SelectEnvirName)$ cd YOURPATH\CirGO-master\CirGO_Mac`
 
 
 ### HELP PAGE  
