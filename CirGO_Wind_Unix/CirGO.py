@@ -235,7 +235,7 @@ def main (argv):
     arg_group_cmd.add_argument("    ", action = 'store_true')
 
     arg_group_int = argsparser.add_argument_group('INT', 'Interactive option of the CirGO software. \nExample: python CirGO.py -int\n')
-    arg_group_int.add_argument("-int", action = 'store_true', help = "Interactive option of the CirGO software. \nInput file from REVIGO as CSV [str]: 'C://mydir/Example_REVIGO_Input_BP.csv'    ***NOTE*** provide a file directory as a string, where a backslash '\\' has to be changed to the forward slash '/'.\n      \nFont Size (default - 7.0) [float]: 7.0\n      \nNumber of Categories (default - 40) [int]: 40\n     \nLegend name. Example: 'Name & Proportion of Biological process (inner ring)' [str]: 'Name & Proportion of Biological process (inner ring)'    ***NOTE*** Select relevant example of the legend name.\n        \nOutput file in svg format (default: input filename + svg) [str]: 'C://mydir/Visual_BP.svg'    ***NOTE*** provide a file directory as a string, where a backslash '\\' has to be changed to the forward slash '/'.\n ") 
+    arg_group_int.add_argument("-int", action = 'store_true', help = "Interactive option of the CirGO software. \nInput file from REVIGO as CSV [str]: 'C://mydir/Example_REVIGO_Input_BP.csv'    ***NOTE*** provide a file directory as a string, where a backslash '\\' has to be changed to the forward slash '/'.\n      \nFont Size (Example - 7.0) [float]: 7.0\n      \nNumber of Categories (Example - 40) [int]: 40\n     \nLegend name. Example: 'Name & Proportion of Biological process (inner ring)' [str]: 'Name & Proportion of Biological process (inner ring)'    ***NOTE*** Select relevant example of the legend name.\n        \nOutput file in svg format (Example: input filename + svg) [str]: 'C://mydir/Visual_BP.svg'    ***NOTE*** provide a file directory as a string, where a backslash '\\' has to be changed to the forward slash '/'.\n ") 
 
 
     args = argsparser.parse_args()
@@ -277,9 +277,9 @@ def main (argv):
             traceback.print_exc()
             sys.exit() 
 # Font Size --------------------------------------------------------------------------------------------------------------------
-        insize = raw_input("Font Size (default - 7.0) [float]: ")
+        insize = raw_input("Font Size (Example - 7.0) [float]: ")
         if insize == ""  :
-            print("Default Font Size is used. [default: 7.0]")  
+            print("Default Font Size is used. [Example: 7.0]")  
             insize = DEFAULT_FONT_SIZE
         elif type(float(insize)) != float:
              print("Wrong command line parameters: Font Size must be a positive float value")
@@ -294,9 +294,9 @@ def main (argv):
             traceback.print_exc()
             sys.exit()
 # Number of Categories--------------------------------------------------------------------------------------------------------------------
-        incat = raw_input("Number of Categories (default - 40) [int]: ")  #  a string
+        incat = raw_input("Number of Categories (Example - 40) [int]: ")  #  a string
         if incat == "":
-            print("Default Number of Categories is used [default: 40]")
+            print("Default Number of Categories is used [Example: 40]")
             incat = DEFAULT_NUM_OF_CATEGORIES
         elif type(int(float(incat))) != int:
             print("Wrong command line parameters: Number of Categories must be a positive integer value")
@@ -313,7 +313,7 @@ def main (argv):
 # Legend--------------------------------------------------------------------------------------------------------------------
         inleg = raw_input('Legend name. Example: "Name & Proportion of Biological process (inner ring)" [str]: ')
         if inleg == "":
-            print('Default Legend Name is used [default: "Name & Proportion of Biological process (inner ring)"]')
+            print('Default Legend Name is used [Example: "Name & Proportion of Biological process (inner ring)"]')
             inleg = DEFAULT_LEGEND_NAME
         elif type(inleg) != str:
             print("Wrong command line parameters: Legend name must be a string.")
@@ -325,7 +325,7 @@ def main (argv):
             traceback.print_exc()
             sys.exit()
 # OutputFile--------------------------------------------------------------------------------------------------------------------
-        outfl = input("Output file in svg format (default: input filename + svg) [str]: ")
+        outfl = input("Output file in svg format (Example: input filename + svg) [str]: ")
         if type(outfl) != str:
             print("Wrong command line parameters: Output file must be a string.")
             sys.exit()
