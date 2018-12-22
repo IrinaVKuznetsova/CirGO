@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 761 252" style="enable-background:new 0 0 761 252;" xml:space="preserve">
 <style type="text/css">
-	.st0{clip-path:url(#SVGID_4_);}
+	.st0{clip-path:url(#SVGID_2_);}
 	.st1{fill:none;}
 	.st2{fill:#FFFFFF;}
 	.st3{font-family:'TimesNewRomanPS-BoldMT';}
@@ -11,29 +11,25 @@
 	.st5{font-family:'TimesNewRomanPSMT';}
 </style>
 <g>
-	<defs>
-		<rect id="SVGID_1_" x="-48" y="-63.3" width="841.9" height="595.3"/>
-	</defs>
-	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-	</clipPath>
-	<g style="clip-path:url(#SVGID_2_);">
-		<text transform="matrix(1 0 0 1 780.4805 105.4199)" style="font-family:'Calibri'; font-size:11.04px;"> </text>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="-48" y="-63.3" width="841.9" height="595.3"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st0">
+			<text transform="matrix(1 0 0 1 780.4805 105.4199)" style="font-family:'Calibri'; font-size:11.04px;"> </text>
+		</g>
 	</g>
 </g>
 <g>
-	<defs>
-		<rect id="SVGID_3_" x="-48" y="8.7" width="841.9" height="105.8"/>
-	</defs>
-	<clipPath id="SVGID_4_">
-		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-	</clipPath>
-	<g class="st0">
+	<g>
 		<defs>
-			<rect id="SVGID_5_" x="24" y="8.7" width="756.4" height="96.7"/>
+			<rect id="SVGID_3_" x="-48" y="8.7" width="841.9" height="105.8"/>
 		</defs>
-		<clipPath id="SVGID_6_">
-			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		<clipPath id="SVGID_4_">
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
 		</clipPath>
 	</g>
 </g>
@@ -43,7 +39,21 @@
 	<g>
 		<rect x="15" y="8.7" width="733" height="234"/>
 		<rect x="33" y="21.7" class="st1" width="738" height="248"/>
-		<text transform="matrix(1 0 0 1 33 51.41)"><tspan x="0" y="0" class="st2 st3 st4"> (VisualGO_envirom)</tspan><tspan x="131.4" y="0" class="st2 st5 st4"> H:\Desktop\CirGO-master\CirGO_Wind_Unix&gt; </tspan><tspan x="414" y="0" class="st2 st3 st4">python CirGO.py -int</tspan><tspan x="0" y="20" class="st2 st5 st4"> [&apos;-int&apos;]</tspan><tspan x="0" y="40" class="st2 st5 st4"> Input file from REVIGO as CSV [str]:  </tspan><tspan x="229.7" y="40" class="st2 st3 st4">&quot;//C:/Desktop/CirGO-master/docs/Example_REVIGO_Input_BP.csv&quot;</tspan><tspan x="0" y="60" class="st2 st5 st4"> Font Size (default - 7.0) [float]:  </tspan><tspan x="190.6" y="60" class="st2 st3 st4">7.9</tspan><tspan x="0" y="80" class="st2 st5 st4"> Number of Categories (default - 40) [int]:  </tspan><tspan x="248.2" y="80" class="st2 st3 st4">30</tspan><tspan x="0" y="100" class="st2 st5 st4"> Legend name. Example: &quot;Name &amp; Proportion of Biological process (inner ring)&quot; [str]: </tspan><tspan x="498.7" y="100" class="st2 st3 st4">&quot;Name &amp; Proportion of Biological </tspan><tspan x="0" y="120" class="st2 st3 st4">process (inner ring)&quot;</tspan><tspan x="0" y="140" class="st2 st5 st4"> Output file in svg format (default: input filename + svg) [str]: </tspan><tspan x="358.1" y="140" class="st2 st3 st4">&quot;//C:/Desktop/CirGO-master/docs/testINT.svg&quot;</tspan></text>
+		<text transform="matrix(1 0 0 1 33 51.41)" class="st2 st3 st4"> (VisualGO_envirom)</text>
+		<text transform="matrix(1 0 0 1 164.4 51.41)" class="st2 st5 st4"> H:\Desktop\CirGO-master\CirGO_Wind_Unix&gt; </text>
+		<text transform="matrix(1 0 0 1 447 51.41)" class="st2 st3 st4">python CirGO.py -int</text>
+		<text transform="matrix(1 0 0 1 33 71.41)" class="st2 st5 st4"> [&apos;-int&apos;]</text>
+		<text transform="matrix(1 0 0 1 33 91.41)" class="st2 st5 st4"> Input file from REVIGO as CSV [str]:  </text>
+		<text transform="matrix(1 0 0 1 262.7 91.41)" class="st2 st3 st4">&quot;//C:/Desktop/CirGO-master/docs/Example_REVIGO_Input_BP.csv&quot;</text>
+		<text transform="matrix(1 0 0 1 33 111.41)" class="st2 st5 st4"> Font Size (Example - 7.0) [float]:  </text>
+		<text transform="matrix(1 0 0 1 223.6 111.41)" class="st2 st3 st4">7.9</text>
+		<text transform="matrix(1 0 0 1 33 131.41)" class="st2 st5 st4"> Number of Categories (Example - 40) [int]:  </text>
+		<text transform="matrix(1 0 0 1 281.2 131.41)" class="st2 st3 st4">30</text>
+		<text transform="matrix(1 0 0 1 33 151.41)" class="st2 st5 st4"> Legend name. Example: &quot;Name &amp; Proportion of Biological process (inner ring)&quot; [str]: </text>
+		<text transform="matrix(1 0 0 1 531.7 151.41)" class="st2 st3 st4">&quot;Name &amp; Proportion of Biological </text>
+		<text transform="matrix(1 0 0 1 33 171.41)" class="st2 st3 st4">process (inner ring)&quot;</text>
+		<text transform="matrix(1 0 0 1 33 191.41)" class="st2 st5 st4"> Output file in svg format (Example: input filename + svg) [str]: </text>
+		<text transform="matrix(1 0 0 1 391.1 191.41)" class="st2 st3 st4">&quot;//C:/Desktop/CirGO-master/docs/testINT.svg&quot;</text>
 	</g>
 </g>
 </svg>
