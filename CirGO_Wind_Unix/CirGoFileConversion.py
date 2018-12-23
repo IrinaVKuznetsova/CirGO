@@ -22,9 +22,9 @@
     If you are using the softwareas a part of your research work, please cite the following publication
     
     Conract info:   irina.kuznetsova@uwa.edu.au 
-    GitHub:         https://github.com/KIVMito/CirGO.git 
+    GitHub:         https://github.com/IrinaVKuznetsova/CirGO.git 
 """
-
+  
 ##----------------------------------------------------------------------------------------------------
 ##----------------------------------------------------------------------------------------------------
 ##----------------------------------------------------------------------------------------------------

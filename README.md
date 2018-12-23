@@ -1,6 +1,6 @@
 # CirGO
 
-*CirGO (Circular Gene Ontologies) Version 1.0 01/03/2018  
+*CirGO (Circular Gene Ontology) Version 1.0 01/03/2018  
 © Copyright (C) 2018  
 Irina Kuznetsova, irina.kuznetsova@uwa.edu.au  
 https://github.com/IrinaVKuznetsova/CirGO.git  
@@ -12,7 +12,7 @@ https://github.com/IrinaVKuznetsova/CirGO.git
 General Usage Notes
 ------
 
-**Description:** CirGO (Circular Gene Ontologies) is an alternative way of visualizing GO terms in 2D space that is suitable for publishing and presenting gene expression ontologies data.  
+**Description:** CirGO (Circular Gene Ontology) is an alternative way of visualizing GO terms in 2D space that is suitable for publishing and presenting gene expression Ontology data.  
 
 **Dependencies:** The software package was developed under **Python 2.7** with specific versions of **NumPy 1.13.1**, and **Matplotlib 2.1.0**. CirGO software can be run on *Windows, Unix\Linux, or Mac OS*. There are two folders that contains scripts requires for running the CirGO software on:  
 * [Windows and Unix](https://github.com/IrinaVKuznetsova/CirGO/tree/master/CirGO_Wind_Unix)   
@@ -21,16 +21,16 @@ General Usage Notes
 **Software architecture:**  
 CirGO can be run on Windows, Unix/Linux and Mac OS as:   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) Graphical User Interface (GUI)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)  Command Line (CMD)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Command Line (CMD)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) Interactive Command Line (INT)  
 
 Brief Algorithm Description
 ------
 
-Briefly, CirGO visualization algorithm consists of three steps that are described at the Supplementary Material of the [X]() publication:   
+Briefly, CirGO visualisation algorithm consists of three steps that are described at the Supplementary Material of the [X]() publication:   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) Formatting of the *csv* input file obtained from the TreeMap tab on [REVIGIO page](http://revigo.irb.hr/).    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Values calculation  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) GO Visualization as two-layer full hierarchies.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) GO visualisation as two-layer full hierarchies.
 
 
 Input Data Format
@@ -48,7 +48,7 @@ GO:0023051 | regulation of signaling | 0.93% | -9.5272 | 0.817 | 0.636 | respons
 ... | ... | ... | ... | ... | ... | ...  
 
 
-#### Formatted three columns input for visualization   
+#### Formatted three columns input for visualisation   
 Note: there is no header.  
 
 | | | |
@@ -141,7 +141,7 @@ Interactive (INT) command line option enables to run the CirGO software in the i
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Name & Proportion of Cellular component (inner ring)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3 )Name & Proportion of Molecular function (inner ring)   
 
-![Snapshot of -INT option](https://github.com/IrinaVKuznetsova/CirGO/blob/master/docs/Wind_INT_option_Example.svg)
+![Snapshot of -INT option](https://github.com/IrinaVKuznetsova/CirGO/blob/master/docs/Wind_INT_option_github.svg)
  
 **Version control:**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tested on Windows 7 Professional / Windows 10  
@@ -336,8 +336,8 @@ CirGO.py -int`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 2.1.0    
 
 
-## Visualization Example
-![Visualization of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/docs/Visual_BP.svg)
+## visualisation Example
+![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/docs/Visual_BP.svg)
 
 
 
