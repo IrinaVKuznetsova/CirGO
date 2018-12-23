@@ -253,7 +253,7 @@ def main (argv):
         sys.exit()
 
     if (not args.gui) and (args.inputFile == None) and (not args.int):
-        print("You must select an intput file to run the software. Otherwise select the GUI or interactive mode of the software!")
+        print("To see a help page, python CirGO.py -h. Otherwise select the GUI, command line or interactive mode of the software!")
         traceback.print_exc()
         sys.exit()
     
