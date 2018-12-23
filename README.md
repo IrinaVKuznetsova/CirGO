@@ -82,7 +82,7 @@ Running under Windows
 
 **--------------------------NOTE-----------------------------**  
 
-If *conda install pip* command offers Python3.7+, reply *n* to the proceed question, deactivate and delete just created environment and run *conda create -n SelectEnvirName python=2.7* command.  
+If *conda install pip* command offers Python3.7+, reply *n* to the proceed question, deactivate and delete just created environment and run *conda create -n SelectEnvirName python=2.7* command. More details at [conda documentation page](https://conda.io/docs/user-guide/tasks/manage-environments.html#removing-an-environment).  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Deactivate created environment): `conda deactivate`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Delete created environment): `conda env remove --name SelectEnvirName`  
