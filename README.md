@@ -78,7 +78,18 @@ Running under Windows
 1. Activate created virtual environment.   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Activate created environment): `> activate SelectEnvirName`       
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Check installed packages. Note: Empty environment has no installed packages): `(SelectEnvirName)> conda list`       
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install  *pip*, which is package manager, and enables installation of required software): `(SelectEnvirName)> conda install pip`      
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install  *pip*, which is package manager, and enables installation of required software): `(SelectEnvirName)> conda install pip` 
+
+**--------------------------NOTE-----------------------------** 
+If *conda install pip* command offers Python3.7+, reply *n* to the proceed question, deactivate and delete just created environment and run *conda create -n SelectEnvirName python=2.7* command.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Deactivate created environment): `conda deactivate`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Delete created environment): `conda env remove --name SelectEnvirName`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install a new environment with Python2.7+): `conda create -n SelectEnvirName python=2.7`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Activate created environment): `activate SelectEnvirName`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Check installed Python version): `conda list`
+**--------------------------NOTE-----------------------------**
+
+     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Check installed packages): `(SelectEnvirName)> conda list`  
 
 1. Download the CirGO software from GitHub repository as zip folder (*Clone or Download*; *Download ZIP*). Unzip folder into a directory of your choice. For example, to the desktop.
