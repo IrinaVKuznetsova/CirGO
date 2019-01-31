@@ -1,11 +1,11 @@
 ================================
-CirGO (Circular Gene Ontologies) 
+CirGO (Circular Gene Ontology Terms) 
 ================================
 
 
-CirGO (Circular Gene Ontologies) is an alternative way of visualizing
+CirGO (Circular Gene Ontology terms) is an alternative way of visualising
 GO terms in 2D space that is suitable for publishing and presenting 
-gene expression ontologies data. 
+gene expression ontology data. 
 
 
 

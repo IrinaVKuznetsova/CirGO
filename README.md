@@ -164,6 +164,8 @@ Interactive (INT) command line option enables to run the CirGO software in the i
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python 2.7  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NumPy 1.13.1  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 2.1.0    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.8.1  
+ 
 
 
 
@@ -256,6 +258,7 @@ CirGO.py -int`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python 2.7  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NumPy 1.13.1  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 2.1.0    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.8.1  
 
 
 
@@ -348,7 +351,8 @@ CirGO.py -int`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conda 4.3.25  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python 2.7  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NumPy 1.13.1  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 2.1.0    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 2.1.0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.8.1    
 
 
 ## visualisation Example

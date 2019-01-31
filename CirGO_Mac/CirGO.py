@@ -1,8 +1,8 @@
 """ CirGO 
     Version 1.0 01/03/2018
     
-    CirGO (Circular Gene Ontologies) is an alternative way of visualizing GO terms in 2D space 
-    that is suitable for publishing and presenting gene expression ontologies data.
+    CirGO (Circular Gene Ontology) software is an alternative way of visualising GO terms in 2D space 
+    that is suitable for publishing and presenting gene expression ontology data.
 
     Copyright (C) 2018 Irina Kuznetsova
     This software is licensed under the terms of the GNU general public license (version 3).
@@ -13,17 +13,20 @@
 
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    along with this program. If not, see <https://www.gnu.org/licenses/>.
  
-    If you are using the softwareas a part of your research work, please cite the following publication
+    If you are using the software as a part of your research work, please cite the following publication:
+    "CirGO: An alternative circular way of visualising Gene Ontology terms"
+    I.Kuznetsova, A.Lugmayr, S.J.Siira, O.Rackham, A.Filipovska
     
-    Conract info:   irina.kuznetsova@uwa.edu.au 
+    Contact info:   irina.kuznetsova@uwa.edu.au 
     GitHub:         https://github.com/IrinaVKuznetsova/CirGO.git 
 """
+
   
 ##----------------------------------------------------------------------------------------------------
 ##----------------------------------------------------------------------------------------------------
@@ -105,7 +108,7 @@ class Application(tk.Frame):
         self.batchProcessDirectory.pack(side = LEFT, fill = X, padx = 2, pady = 2)
         self.batchProcessDirectory.config(state = 'disabled')
 
-        self.visualiseButton = tk.Button(toolbar, width = 10, text = 'Visualize', command = self.createVisualisation)  
+        self.visualiseButton = tk.Button(toolbar, width = 10, text = 'Visualise', command = self.createVisualisation)  
         self.visualiseButton.pack(side = LEFT, fill = X, padx = 2, pady = 2)
         self.visualiseButton.config(state = DISABLED)
         self.closeButton = tk.Button(toolbar, width = 10, text = 'Close File', command = self.closeFile)       
@@ -230,7 +233,7 @@ def main (argv):
     arg_group_cmd.add_argument("-inputFile", default = None, type = str, help = "[csv] Input path and filename of an REVIGO file. \nExample: Example_REVIGO_Input_BP.csv")
     arg_group_cmd.add_argument("-outputFile", default = None, type = str, help = "[svg] Output path and filename. \nExample: Visual_BP.svg")
     arg_group_cmd.add_argument('-fontSize', type = float, default = DEFAULT_FONT_SIZE, help = "[float] Font Size (Default: " + str(DEFAULT_FONT_SIZE) +  "). Select one from the range 6.0 -7.5 \nExample: 6.5")
-    arg_group_cmd.add_argument('-numCat', type = int, default = DEFAULT_NUM_OF_CATEGORIES, help = "[int] Number of Categories to be visualized. (Default: " + str(DEFAULT_NUM_OF_CATEGORIES) + "). \nExample: 60 or lower")
+    arg_group_cmd.add_argument('-numCat', type = int, default = DEFAULT_NUM_OF_CATEGORIES, help = "[int] Number of Categories to be visualised. (Default: " + str(DEFAULT_NUM_OF_CATEGORIES) + "). \nExample: 60 or lower")
     arg_group_cmd.add_argument('-legend', type = str, default = DEFAULT_LEGEND_NAME, help = "[str] Legend title to be displayed in the figure. Select relevant example of the legend name. \nExample:\n   (1) Name & Proportion of Biological process (inner ring)\n   (2) Name & Proportion of Cellular component (inner ring)\n   (3) Name & Proportion of Molecular function (inner ring) ")
 #    arg_group_cmd.add_argument("    ", action = 'store_true')
 
@@ -259,7 +262,7 @@ def main (argv):
     if args.gui:
         root = Tk()  
         app = Application(master = root)
-        app.master.title('CirGO - Circular Gene Ontologies Visualisation')
+        app.master.title('CirGO - Circular Gene Ontology terms Visualisation')
         app.mainloop()
         root.destroy()
 
@@ -359,7 +362,7 @@ def main (argv):
             CirGOVisualGO.CircularVisualGO(fn + "_converted.csv", int(args.numCat), float(args.fontSize), args.legend, args.outputFile)
         except:
             traceback.print_exc()
-            print("File could not be visualized!")
+            print("File could not be visualised!")
             sys.exit()
 
 

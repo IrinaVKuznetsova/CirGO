@@ -1,8 +1,8 @@
 """ CirGO 
     Version 1.0 01/03/2018
     
-    CirGO (Circular Gene Ontologies) is an alternative way of visualizing GO terms in 2D space 
-    that is suitable for publishing and presenting gene expression ontologies data.
+    CirGO (Circular Gene Ontology) software is an alternative way of visualising GO terms in 2D space 
+    that is suitable for publishing and presenting gene expression ontology data.
 
     Copyright (C) 2018 Irina Kuznetsova
     This software is licensed under the terms of the GNU general public license (version 3).
@@ -13,15 +13,17 @@
 
     This program is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
     GNU General Public License for more details.
 
     You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    along with this program. If not, see <https://www.gnu.org/licenses/>.
  
-    If you are using the softwareas a part of your research work, please cite the following publication
+    If you are using the software as a part of your research work, please cite the following publication:
+    "CirGO: An alternative circular way of visualising Gene Ontology terms"
+    I.Kuznetsova, A.Lugmayr, S.J.Siira, O.Rackham, A.Filipovska
     
-    Conract info:   irina.kuznetsova@uwa.edu.au 
+    Contact info:   irina.kuznetsova@uwa.edu.au 
     GitHub:         https://github.com/IrinaVKuznetsova/CirGO.git 
 """
  
@@ -34,9 +36,6 @@
 ##----------------------------------------------------------------------------------------------------
 from Tkinter import *
 import Tkinter as tk
-
-
-
 
 def testValInt( str, i, action):
     value = int(i)
