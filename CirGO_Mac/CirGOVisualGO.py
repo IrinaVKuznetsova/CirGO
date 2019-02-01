@@ -45,7 +45,6 @@ from argparse import RawTextHelpFormatter
 ## ----------------------------------------------------------------------------------------------------
 ## 2. Functions, a)- Calculates color gradient; b)- Prepares parameters required for Visualisation
 ## ----------------------------------------------------------------------------------------------------
-
 def ColorGradient(gradient_number, hex_outer_color):
     """ Color gradient function. """
     color_gradient = sns.light_palette(hex_outer_color, n_colors = gradient_number, reverse=False)
@@ -214,13 +213,13 @@ def CircularVisualGO(infile, num_of_categories, font_size, legend_name, outfile)
 ## ----------------------------------------------------------------------------------------------------
 ## 1. Parameters calculation part
 ## ----------------------------------------------------------------------------------------------------
-    # 1.0 Parse a file.
+    # 1.0 Parse file.
     dataa =  np.genfromtxt(fname = infile, 
                                dtype = None, 
                                skip_header =1,
                                delimiter = "\t")
         
-    # 1.1. Sort data from the Largest to Smallest. Initialise a number of categories.   
+    # 1.1 Sort data from the Largest to Smallest. Initialise a number of categories.   
     second_col = []
     first_col = []
     third_col = []
@@ -283,14 +282,8 @@ def CircularVisualGO(infile, num_of_categories, font_size, legend_name, outfile)
     # Lightness range [20-75]
     required_color_list = ["#0cc0aa", "#943105", "#a1c54d", "#214a65", "#cc96eb", "#3e2690", "#e3ae8c", "#a53460", 
                          "#007961", "#dc58ea", "#9dbbe6", "#fd048f", "#4dc31e", "#7212ff", "#658114", "#ff7074", 
-                         "#95704d", "#fe5900", "#413c09", "#daa218", "#0cc0aa", "#943105", "#a1c54d", "#214a65", 
-                         "#cc96eb", "#3e2690", "#e3ae8c", "#a53460", "#007961", "#dc58ea", "#9dbbe6", "#fd048f", 
-                         "#4dc31e", "#7212ff", "#658114", "#ff7074", "#95704d", "#fe5900", "#413c09", "#daa218",
-                         "#0cc0aa", "#943105", "#a1c54d", "#214a65", "#cc96eb", "#3e2690", "#e3ae8c", "#a53460", 
-                         "#007961", "#dc58ea", "#9dbbe6", "#fd048f", "#4dc31e", "#7212ff", "#658114", "#ff7074", 
-                         "#95704d", "#fe5900", "#413c09", "#daa218", "#0cc0aa", "#943105", "#a1c54d", "#214a65", 
-                         "#cc96eb", "#3e2690", "#e3ae8c", "#a53460", "#007961", "#dc58ea", "#9dbbe6", "#fd048f", 
-                         "#4dc31e", "#7212ff", "#658114", "#ff7074", "#95704d", "#fe5900", "#413c09", "#daa218"]
+                         "#95704d", "#fe5900", "#413c09", "#daa218"]*20
+                         
 
     # 2.1 Calculate how many values one slice has that are not a zero.
     not_zeros=[]                        
@@ -343,7 +336,7 @@ def CircularVisualGO(infile, num_of_categories, font_size, legend_name, outfile)
 
     outer_concat_color = np.array(full_list).reshape(int(len(full_list)/4), 4) 
     inner_concat_inner = np.array(required_color_list)
-     
+    
     # 2.4 Calculate wedges information in percent.
     # Note: this information can be extracted only if we create a dummy plot beforehand.
     fig, ax = plt.subplots()  
@@ -352,8 +345,8 @@ def CircularVisualGO(infile, num_of_categories, font_size, legend_name, outfile)
                autopct = "%1.2f%%") 
     percent_dummy = v[2]
     plt.close()  # remove a dummy image
-   
-    # 2.5. Initialise plotting parameters.
+    
+    # 2.5 Initialise plotting parameters.
     mpl.rcParams["font.size"] = font_size
     mpl.rcParams["font.sans-serif"] = "Arial"    
     fig, ax = plt.subplots()     
@@ -366,7 +359,7 @@ def CircularVisualGO(infile, num_of_categories, font_size, legend_name, outfile)
     # 2.5.0 Outer ring plotting.
     patches, texts = ax.pie(np.array(outer_val).flatten(), 
                             radius = 0.8,     
-                            labels = np.array(outer_lab).flatten(), 
+                            #labels = np.array(outer_lab).flatten(),    # used at 2.5.1 - texts[nr].set_text(np.array(outer_lab).flatten()[nr])
                             colors = outer_concat_color, 
                             labeldistance = 1.1,
                             startangle = 90,   
@@ -377,8 +370,45 @@ def CircularVisualGO(infile, num_of_categories, font_size, legend_name, outfile)
                             textprops = {"color": "black",
                                           "alpha": 1.0,
                                           "weight": "roman"})    
- 
-    # 2.5.1 Obtain supporting infomation such as prefix "GO" for the inner ring.
+    # 2.5.1 Outer ring labels 
+    # OPTION I - Labels are centered. 
+    c_radius = 0.8          # radius = 0.8    
+    for nr, w in enumerate(patches):
+        y = math.sin(math.radians( w.theta1+(w.theta2-w.theta1)/2) )*(c_radius+0.04)  # starting postion of drawing labels (same as labeldistance at pie())  
+        x = math.cos(math.radians( w.theta1+(w.theta2-w.theta1)/2) )*(c_radius+0.04)
+        if (x<0):
+                texts[nr].set_horizontalalignment("right")  # controls labels postion (left or right side of the circle)
+                texts[nr].set_verticalalignment("center")   # centers a label position | w.theta1+(w.theta2-w.theta1)/2 /right/center
+                texts[nr].set_rotation(( w.theta1+( w.theta2-w.theta1)/2)+180)
+        else:
+            texts[nr].set_horizontalalignment("left")      
+            texts[nr].set_verticalalignment("center")       # centers a label position | w.theta1+(w.theta2-w.theta1)/2 /left/center
+            texts[nr].set_rotation(( w.theta1+(w.theta2-w.theta1)/2)) 
+        texts[nr].set_rotation_mode("anchor")
+        texts[nr].set_x(x)  
+        texts[nr].set_y(y) 
+        texts[nr].set_text(np.array(outer_lab).flatten()[nr])
+
+# OPTION II - Labels aligned to the right corner of the edge.
+#    c_radius = 0.8          # same as at pie() radius = 0.8   
+#    for nr, w in enumerate(patches):
+#        y = math.sin(math.radians(w.theta2)) * (c_radius+0.04)  # starting postion of drawing labels (same as labeldistance at pie())  
+#        x = math.cos(math.radians(w.theta2)) * (c_radius+0.04)
+#        if (x<0):
+#                texts[nr].set_horizontalalignment("right")      # controls labels postion (left or right side of the circle)
+#                texts[nr].set_verticalalignment("bottom")       # "theta2/right/bottom"
+#                texts[nr].set_rotation(w.theta2+180)
+#        else:
+#            texts[nr].set_horizontalalignment("left") 
+#            texts[nr].set_verticalalignment("top")               # "theta2/left/top"
+#            texts[nr].set_rotation(w.theta2) 
+#        texts[nr].set_rotation_mode("anchor")
+#        texts[nr].set_x(x) # 
+#        texts[nr].set_y(y) #
+#        texts[nr].set_text(np.array(outer_lab).flatten()[nr])
+
+    
+    # 2.5.2 Obtain supporting infomation such as prefix "GO" for the inner ring.
     inner_ring_percent_labels = []
     legend_labeling = []
     set_percent_threshold = 3 # This wedge size value plays a threshold role that 
@@ -409,13 +439,10 @@ def CircularVisualGO(infile, num_of_categories, font_size, legend_name, outfile)
                              textprops = {"color": "white",
                                           "alpha": 1.0,
                                           "style": "oblique",
-                                          "weight": "extra bold"
-                                          #"fontsize": 200.0
-                                          #"family": "monospace"
-                                          #"fontweight": "heavy",
-                                          }) 
-                                                                            
-#     2.5.3. Outline inner ring labels' colors to make it readable on a dark color.   
+                                          "weight": "extra bold"}) 
+                             
+                                                        
+    # 2.5.3 Outline inner ring labels' colors to make it readable on a dark color.   
     for inner_text in p_text:
         inner_text.set_path_effects([PathEffects.withStroke(linewidth=1, foreground='black'),
                                      PathEffects.withSimplePatchShadow()])
@@ -438,11 +465,12 @@ def CircularVisualGO(infile, num_of_categories, font_size, legend_name, outfile)
                bbox_transform = plt.gcf().transFigure)
 
     # Plot title     
-    plt.title("CirGO visualisation plot", 
+    plt.title("CirGO Visualisation Plot", 
               y=1.50, 
               fontdict = {'weight': 'normal',
                           'size': 12,
                           'horizontalalignment': "center"} )
+
     
     # 2.6 Save created image. 
     plt.savefig(outfile, 
@@ -464,4 +492,3 @@ def CircularVisualGO(infile, num_of_categories, font_size, legend_name, outfile)
 ## np.__version__       # 1.13.1
 ## mpl.__version__      # 2.1.0
 ## sns.__version__      # 0.8.1
-
