@@ -20,6 +20,9 @@
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
  
     If you are using the softwareas a part of your research work, please cite the following publication
+    Kuznetsova I, Lugmayr A, Siira SJ, Rackham O, Filipovska A. 
+    CirGO: an alternative circular way of visualising gene ontology terms. BMC Bioinformatics [Internet]. 
+    2019 Feb 18;20(1):84. Available from: https://doi.org/10.1186/s12859-019-2671-2
     
     Conract info:   irina.kuznetsova@uwa.edu.au 
     GitHub:         https://github.com/IrinaVKuznetsova/CirGO.git 
