@@ -1,3 +1,4 @@
+
 """ CirGO 
     Version 1.0 01/03/2018
     
@@ -28,20 +29,21 @@
     GitHub:         https://github.com/IrinaVKuznetsova/CirGO.git 
 """
 
-   
 
 ##----------------------------------------------------------------------------------------------------
-## 1. Import required modules
+## 1. Required modules
 ## ----------------------------------------------------------------------------------------------------
 import os
 import argparse
 import numpy as np                     
 import matplotlib as mpl
-mpl.use("TkAgg")       #  MacOS enable to see Py as a framework
+import seaborn as sns
+import matplotlib.patheffects as PathEffects
+mpl.use("TkAgg")       #  MacOS so it sees Py as a framework
 from matplotlib import pyplot as plt
 from collections import OrderedDict   
 from argparse import RawTextHelpFormatter
-
+import math
 
 ## ----------------------------------------------------------------------------------------------------
 ## 2. Functions, a)- Calculates color gradient; b)- Prepares parameters required for Visualisation

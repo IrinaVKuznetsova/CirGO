@@ -27,8 +27,7 @@
     Contact info:   irina.kuznetsova@uwa.edu.au 
     GitHub:         https://github.com/IrinaVKuznetsova/CirGO.git 
 """
-
-  
+   
 ##----------------------------------------------------------------------------------------------------
 ##----------------------------------------------------------------------------------------------------
 ##----------------------------------------------------------------------------------------------------
@@ -217,29 +216,30 @@ def main (argv):
         prog = "CirGO",
         usage = 
         'This is the command line interface for the CirGO visualisation software.\n'+
-        '\n HELP: help for using the software. CirGO -h\n' +
-        '\n GUI: usage for the graphical user interface option of the CirGO software. CirGO -gui\n' +
-        '\n COMMAND LINE (CMD): usage for the command line option of the CirGO software. CirGO - inputFile INPUTFILE [-outputFile OUTPUTFILE] [-fontSize FONTSIZE] [-numCat NRCATEGORIES] [-leg FIGURE_LEGEND]\n' +
-        '\n INTERACTIVE MODE (INT): interactive option of the CirGO software. This is the default option for running the software, if no options are used at all. CirGO -int\n ',
+        '\n HELP: help for using the software. python CirGO.py -h\n' +
+        '\n GUI: usage for the graphical user interface option of the CirGO software. python CirGO.py -gui\n' +
+        '\n COMMAND LINE (CMD): usage for the command line option of the CirGO software. python CirGO.py - inputFile INPUTFILE [-outputFile OUTPUTFILE] [-fontSize FONTSIZE] [-numCat NRCATEGORIES] [-leg FIGURE_LEGEND]\n' +
+        '\n INTERACTIVE MODE (INT): interactive option of the CirGO software. python CirGO.py -int\n ',
         formatter_class = RawTextHelpFormatter,
         epilog = "Copyright (C) 2018. This software is licensed under the terms of the GNU general public license (version 3).\nIf you use this software, please cite the following publication: .......")
     
     arg_group_dummy = argsparser.add_argument_group('', '--------------------------------------------------------------------------------------------------------------------')
     
-    arg_group_gui = argsparser.add_argument_group('GUI', 'Graphical User Interface (GUI) option of the CirGO sofware.\nExample: python CirGO.py -gui')
+    arg_group_gui = argsparser.add_argument_group('GUI', 'Graphical User Interface (GUI) option of the CirGO software.\nExample: python CirGO.py -gui')
     arg_group_gui.add_argument("-gui", action = 'store_true', help = "GUI option of the CirGO software. If this option is selected, all other command line parameters will be ignored.\n")
     arg_group_gui.add_argument("    ", action = 'store_true')
     
-    arg_group_cmd = argsparser.add_argument_group('CMD', 'Command line option of the CirGO software. \nExample: python CirGO.py -inputFile Example_REVIGO_Input_BP.csv -outputFile Visual_BP.svg -fontSize 6.5 -numCat 40 -legend "Name & Proportion of Biological process (inner ring)"')
-    arg_group_cmd.add_argument("-inputFile", default = None, type = str, help = "[csv] Input path and filename of an REVIGO file. \nExample: Example_REVIGO_Input_BP.csv")
-    arg_group_cmd.add_argument("-outputFile", default = None, type = str, help = "[svg] Output path and filename. \nExample: Visual_BP.svg")
+    arg_group_cmd = argsparser.add_argument_group('CMD', 'Command line option of the CirGO software. \nExample: python CirGO.py -inputFile C:\\mydir\Example_REVIGO_Input_BP.csv -outputFile C:\\mydir\\Visual_BP.svg -fontSize 6.5 -numCat 40 -legend "Name & Proportion of Biological process (inner ring)"')
+    arg_group_cmd.add_argument("-inputFile", default = None, type = str, help = "[csv] Input path and filename of a REVIGO file. \nExample: C:\\mydir\\Example_REVIGO_Input_BP.csv")
+    arg_group_cmd.add_argument("-outputFile", default = None, type = str, help = "[svg] Output path and filename. \nExample: C:\\mydir\\Visual_BP.svg")
     arg_group_cmd.add_argument('-fontSize', type = float, default = DEFAULT_FONT_SIZE, help = "[float] Font Size (Default: " + str(DEFAULT_FONT_SIZE) +  "). Select one from the range 6.0 -7.5 \nExample: 6.5")
     arg_group_cmd.add_argument('-numCat', type = int, default = DEFAULT_NUM_OF_CATEGORIES, help = "[int] Number of Categories to be visualised. (Default: " + str(DEFAULT_NUM_OF_CATEGORIES) + "). \nExample: 60 or lower")
     arg_group_cmd.add_argument('-legend', type = str, default = DEFAULT_LEGEND_NAME, help = "[str] Legend title to be displayed in the figure. Select relevant example of the legend name. \nExample:\n   (1) Name & Proportion of Biological process (inner ring)\n   (2) Name & Proportion of Cellular component (inner ring)\n   (3) Name & Proportion of Molecular function (inner ring) ")
-#    arg_group_cmd.add_argument("    ", action = 'store_true')
+    arg_group_cmd.add_argument("    ", action = 'store_true')
 
-    arg_group_int = argsparser.add_argument_group('INT', 'Interactive option of the CirGO software. \nExample: python CirGO.py -int Example_REVIGO_Input_BP.csv')
-    arg_group_int.add_argument("-int", action = 'store_true', help = "Interactive option of the CirGO software. If no command line parameters have been selected, this is the default option for executing the CirGO software.")
+    arg_group_int = argsparser.add_argument_group('INT', 'Interactive option of the CirGO software. \nExample: python CirGO.py -int\n')
+    arg_group_int.add_argument("-int", action = 'store_true', help = "Interactive option of the CirGO software. \nInput file from REVIGO as CSV [str]: 'C://mydir/Example_REVIGO_Input_BP.csv'    ***NOTE*** provide a file directory as a string, where a backslash '\\' has to be changed to the forward slash '/'.\n      \nFont Size (Example - 7.0) [float]: 7.0\n      \nNumber of Categories (Example - 40) [int]: 40\n     \nLegend name. Example: 'Name & Proportion of Biological process (inner ring)' [str]: 'Name & Proportion of Biological process (inner ring)'    ***NOTE*** Select relevant example of the legend name.\n        \nOutput file in svg format (Example: input filename + svg) [str]: 'C://mydir/Visual_BP.svg'    ***NOTE*** provide a file directory as a string, where a backslash '\\' has to be changed to the forward slash '/'.\n ") 
+
 
     args = argsparser.parse_args()
 
@@ -316,7 +316,7 @@ def main (argv):
 # Legend--------------------------------------------------------------------------------------------------------------------
         inleg = raw_input('Legend name. Example: "Name & Proportion of Biological process (inner ring)" [str]: ')
         if inleg == "":
-            print('Example Legend Name is used [Example: "Name & Proportion of Biological process (inner ring)"]')
+            print('Default Legend Name is used [Example: "Name & Proportion of Biological process (inner ring)"]')
             inleg = DEFAULT_LEGEND_NAME
         elif type(inleg) != str:
             print("Wrong command line parameters: Legend name must be a string.")

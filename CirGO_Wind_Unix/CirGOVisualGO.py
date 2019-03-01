@@ -39,7 +39,7 @@ import numpy as np
 import matplotlib as mpl
 import seaborn as sns
 import matplotlib.patheffects as PathEffects
-#mpl.use("TkAgg")       #  MacOS so it sees Py as a framework
+mpl.use("TkAgg")       #  MacOS so it sees Py as a framework
 from matplotlib import pyplot as plt
 from collections import OrderedDict   
 from argparse import RawTextHelpFormatter
