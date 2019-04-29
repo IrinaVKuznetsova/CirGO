@@ -4,7 +4,8 @@
 © Copyright (C) 2018  
 https://github.com/IrinaVKuznetsova/CirGO.git  
   
-Software development by:
+Software development by:  
+
 Irina Kuznetsova, irina.kuznetsova@uwa.edu.au  
 Artur Lugmayr, lartur@acm.org  
 
