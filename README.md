@@ -2,8 +2,11 @@
 
 *CirGO (Circular Gene Ontology) Version 1.0 01/03/2018  
 © Copyright (C) 2018  
-Irina Kuznetsova, irina.kuznetsova@uwa.edu.au  
 https://github.com/IrinaVKuznetsova/CirGO.git  
+  
+Software development by:
+Irina Kuznetsova, irina.kuznetsova@uwa.edu.au  
+Artur Lugmayr, lartur@acm.org  
 
 *This manual was designed to help people with limited or no programming experience to install the CirGO software.*
 
