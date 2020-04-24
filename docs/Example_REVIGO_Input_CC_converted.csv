@@ -1,0 +1,117 @@
+description	log10pvalue	representative
+cellular_component	5.6271	cellular_component
+extracellular region	30.1898	extracellular region
+cell	111.0195	cell
+mitochondrion	73.5214	mitochondrion
+chromosome	6.4461	mitochondrion
+nuclear periphery	2.7057	mitochondrion
+spindle midzone	4.7447	mitochondrion
+non-membrane-bounded organelle	37.8697	mitochondrion
+protein complex	38.4634	mitochondrion
+cytoplasm	144.6517	mitochondrion
+intracellular membrane-bounded organelle	107.5702	mitochondrion
+intracellular organelle	126.644	mitochondrion
+cytosolic ribosome	23.3344	mitochondrion
+intracellular	151.1918	mitochondrion
+organellar ribosome	3.0762	mitochondrion
+lytic vacuole	8.1035	mitochondrion
+microbody	7.0128	mitochondrion
+cytosol	52.4962	mitochondrion
+ribosome	23.1135	mitochondrion
+actomyosin	2.6634	mitochondrion
+cytoplasmic region	5.4921	mitochondrion
+cytoskeleton	13.1938	mitochondrion
+large ribosomal subunit	16.4685	mitochondrion
+organelle envelope	35.6615	mitochondrion
+peroxisome	7.0128	mitochondrion
+organelle envelope lumen	3.1407	mitochondrion
+vacuole	8.6003	mitochondrion
+vesicle	49.4672	mitochondrion
+mitochondrial intermembrane space	3.4857	mitochondrion
+perinuclear region of cytoplasm	11.5702	mitochondrion
+endoplasmic reticulum lumen	3.8242	mitochondrion
+inclusion body	3.3364	mitochondrion
+endoplasmic reticulum	15.0101	mitochondrion
+smooth endoplasmic reticulum	3.0357	mitochondrion
+sarcoplasmic reticulum	8.6345	mitochondrion
+fibrillar center	3.4116	mitochondrion
+sarcoplasm	8.0132	mitochondrion
+cell part	110.9706	mitochondrion
+nucleolar part	3.882	mitochondrion
+cytosolic part	13.556	mitochondrion
+bounding membrane of organelle	9.7852	mitochondrion
+cytoplasmic part	140.4498	mitochondrion
+ribonucleoprotein complex	11.8386	mitochondrion
+mitochondrial part	50.7167	mitochondrion
+cytoskeletal part	12.8729	mitochondrion
+organelle membrane	33.5045	mitochondrion
+nuclear part	30.1249	mitochondrion
+intracellular part	150.4089	mitochondrion
+organelle part	89.3635	mitochondrion
+extracellular matrix component	8.4597	mitochondrion
+integral component of mitochondrial membrane	4.4413	mitochondrion
+integral component of endoplasmic reticulum membrane	3.5768	mitochondrion
+cell cortex	4.4001	mitochondrion
+intracellular organelle lumen	41.3233	mitochondrion
+preribosome	5.0438	mitochondrion
+extracellular exosome	53.7986	mitochondrion
+clathrin-coated pit	3.9385	mitochondrion
+mitochondrial tricarboxylic acid cycle enzyme complex	4.1463	mitochondrion
+focal adhesion	24.8601	focal adhesion
+nucleoid	2.941	nucleoid
+membrane	8.7471	membrane
+cell junction	8.9747	cell junction
+membrane-enclosed lumen	40.9355	membrane-enclosed lumen
+macromolecular complex	50.51	macromolecular complex
+organelle	136.5591	organelle
+respiratory chain	25.9136	respiratory chain
+supramolecular complex	12.2604	supramolecular complex
+supramolecular fiber	11.857	supramolecular fiber
+cardiac myofibril	2.4839	supramolecular fiber
+coated membrane	2.623	coated membrane
+whole membrane	11.9747	whole membrane
+respiratory chain complex	25.4881	respiratory chain complex
+proteasome accessory complex	2.8005	respiratory chain complex
+nucleosome	8.5003	respiratory chain complex
+condensed chromosome	4.4547	respiratory chain complex
+DNA packaging complex	9.4012	respiratory chain complex
+polysome	2.9775	respiratory chain complex
+NADH dehydrogenase complex	17.8268	respiratory chain complex
+cullin-RING ubiquitin ligase complex	4.5702	respiratory chain complex
+lipid particle	2.6622	respiratory chain complex
+protein-DNA complex	7.8508	respiratory chain complex
+tRNA methyltransferase complex	2.6193	respiratory chain complex
+membrane coat	2.623	respiratory chain complex
+chromocenter	2.7003	respiratory chain complex
+intraciliary transport particle B	2.6447	respiratory chain complex
+intraciliary transport particle	2.9092	respiratory chain complex
+90S preribosome	4.7033	respiratory chain complex
+collagen trimer	3.7104	respiratory chain complex
+proton-transporting ATP synthase complex	9.1433	respiratory chain complex
+serine/threonine protein kinase complex	2.382	respiratory chain complex
+tricarboxylic acid cycle enzyme complex	4.6819	respiratory chain complex
+ubiquitin ligase complex	4.0269	respiratory chain complex
+membrane protein complex	20.7825	respiratory chain complex
+podosome	7.0685	respiratory chain complex
+transferase complex	6.6757	respiratory chain complex
+cytochrome complex	5.1118	respiratory chain complex
+proton-transporting two-sector ATPase complex	7.9208	respiratory chain complex
+oxidoreductase complex	23.1192	respiratory chain complex
+catalytic complex	13.2807	respiratory chain complex
+outer membrane	3.8737	outer membrane
+sarcolemma	7.0035	sarcolemma
+T-tubule	5.2798	sarcolemma
+ruffle	7.4609	ruffle
+cell projection membrane	2.9034	ruffle
+neuron projection	6.5607	ruffle
+filopodium	3.4616	ruffle
+ciliary rootlet	2.5135	ruffle
+growth cone part	2.3641	ruffle
+midbody	3.9747	midbody
+myelin sheath	12.4101	myelin sheath
+cell leading edge	8.3799	cell leading edge
+cell body	3.5685	cell body
+neuron part	3.9407	neuron part
+cell projection	4.9393	cell projection
+envelope	35.719	envelope
+endomembrane system	19.1739	endomembrane system
