@@ -6,9 +6,12 @@ https://github.com/IrinaVKuznetsova/CirGO.git
   
 Software development by:  
 
-Irina Kuznetsova, irina.kuznetsova@uwa.edu.au  
+Irina Kuznetsova, irina.kuznetsova@perkins.org.au 
 Artur Lugmayr, lartur@acm.org  
 
+```diff
+! Version 1.0 Python 2+ 01/03/2018
+```
 *This manual was designed to help people with limited or no programming experience to install the CirGO software.*
 
 
@@ -217,49 +220,49 @@ Running under Mac
 ### INSTALLATION GUIDE
 1. Open Mac terminal.
   
-1. Install *xcode-select* utility on your Mac OS if you have not installed already. This utilities enables usage of common Unix-based tools.   
+1. Install *xcode-select* utility on your Mac OS if you have not installed already. This utilities enables usage of common Unix-based tools   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install xcode-select utility): `$ xcode-select --install`  
 
-1. Install [Homebrew](https://brew.sh/), which is free open source software package, if you have not installed already. It facilitates software installation on Mac OS. Note: please always check the command from the [Homebrew](https://brew.sh/) website, as it frequently modified.   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install Homebrew): `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+1. Install [Homebrew](https://brew.sh/), which is free open source software package, if you have not installed already. It facilitates software installation on Mac OS. Note: please always check the command from the [Homebrew](https://brew.sh/) website, as it frequently modified   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install Homebrew): `$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`  
 
-1. Check Python version. Python 2+ is required version for the CirGO software. Note: Python 2.7 generally comes with Mac OS.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Check Python version): `$ python --version`
+1. Check Python version. Python 2+ is required version for the CirGO software. Note: Python 2.7 generally comes with Mac OS  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Check Python version): `$ python --version`  
 
-1. Create a virtual environment. Virtual environment acts as an isolated platform where you can install all required packages for the specific project without modifying existing projects. For example, if your computer has Python 2.7, you can easily install Python 3+ without affecting Python 2+.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Create virtual environment) `$ virtualenv -p /usr/bin/python2.7 SelectEnvirName`
+1. Create a virtual environment. Virtual environment acts as an isolated platform where you can install all required packages for the specific project without modifying existing projects. For example, if your computer has Python 2.7, you can easily install Python 3+ without affecting Python 2+  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Create virtual environment) `$ virtualenv -p /usr/bin/python2.7 SelectEnvirName`  
 
-1. Activate created virtual environment.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Activate virtual environment): `$ source SelectEnvirName/bin/activate`
+1. Activate created virtual environment  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Activate virtual environment): `$ source SelectEnvirName/bin/activate`  
 
 1. Install the latest *pip* version.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install the latest *pip*): `(SelectEnvirName)$ curl https://bootstrap.pypa.io/get-pip.py | python`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install the latest *pip*): `(SelectEnvirName)$ curl https://bootstrap.pypa.io/get-pip.py | python`  
 
-1. Download the CirGO software from GitHub repository as zip folder (*Clone or Download*; *Download ZIP*). Unzip folder into a directory of your choice. For example, to the desktop.
+1. Download the CirGO software from GitHub repository as zip folder (*Clone or Download*; *Download ZIP*). Unzip folder into a directory of your choice. For example, to the desktop  
 
 1. Navigate Mac terminal to the *setup.py* script of the CirGO software, which is located at the *docs* folder.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to docs folder): `(SelectEnvirName)$ cd YOURPATH\CirGO-master\docs`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to docs folder): `(SelectEnvirName)$ cd YOURPATH\CirGO-master\docs`  
 
 1. Create a source distribution for the CirGO package. This step generates two folders *CirGO.egg-info* and *dist.*  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Create a source distribution) : `(SelectEnvirName)$ python setup.py sdist`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Create a source distribution) : `(SelectEnvirName)$ python setup.py sdist`  
 
 1. Navigate to the *dist* folder and install CirGO package.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the *dist* folder):`(SelectEnvirName)$ cd dist`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install CirGO package):`(SelectEnvirName)$ pip install CirGO-0.1.0.tar.gz`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install CirGO package):`(SelectEnvirName)$ pip install CirGO-0.1.0.tar.gz`  
 
 1. Navigate to the *CirGO_Mac* folder.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the CirGO_Mac folder):`(SelectEnvirName)$ cd YOURPATH\CirGO-master\CirGO_Mac`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the CirGO_Mac folder):`(SelectEnvirName)$ cd YOURPATH\CirGO-master\CirGO_Mac`  
 
 
 ### HELP PAGE  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Help page):`(SelectEnvirName)> python CirGO.py –h`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Help page):`(SelectEnvirName)> python CirGO.py –h`  
 
 
 ### CirGO PACKAGE USAGE
  There are three options on the CirGO usage:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) Graphical User Interface (GUI);  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Command Line (CMD);  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) Interactive Command Line (INT).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) Interactive Command Line (INT)  
 
 #### (1) Graphical User Interface (GUI)  
 Graphical User Interface (GUI) is the simplest option for visualising GO terms. When the command *python CirGO.py -gui* is executed an interactive window will pop-up. The required parameters can be changed or left as default, an input file can be opened with the *Open File* button, and visualised by pressing *Visualize* button. The output file will be automatically saved in *svg* format to the same folder with the input file, or the output file name can be changed by pressing *Save output as SVG* button. Please note, that the legend name should be changed depending on what process (biological process, cellular component, or molecular function) is visualised. To leave GUI press *Exit*. 
@@ -276,7 +279,7 @@ Command Line (CMD) requires a user to provide parameters in the command line spa
 
 #### (3) Interactive Command Line (INT) 
 Interactive (INT) command line option enables to run the CirGO software in the interactive mode.  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Interactive command line (INT)):`(SelectEnvirName)$ python 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Interactive command line (INT)):`(SelectEnvirName)$ python  
 CirGO.py -int`
 &nbsp;  
 **CirGO [-int]**  
@@ -295,26 +298,23 @@ CirGO.py -int`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Name & Proportion of Cellular component (inner ring)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3 )Name & Proportion of Molecular function (inner ring)  
  
-**Version control:**  
+**Version control CirGO Version 1.0 Python 2+:**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tested on Windows 7 Professional / Windows 10  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conda 4.3.25  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python 2.7  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NumPy 1.13.1  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 2.1.0
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 2.1.0  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.8.1    
 
 
 ## visualisation Example
-![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/docs/Visual_BP.svg)
-
-
+![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/Py2%2B/docs/Visual_BP.svg)  
 
 ## Example Dataset
-The example dataset was obtained from [GSE83471](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83471).
-
+The example dataset was obtained from [GSE83471](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83471)  
 
 ## Copyright Notice
-This project is licensed under the terms of the **GNU version 3** general public license.
+This project is licensed under the terms of the **GNU version 3** general public license  
 
 ## Cite  
 Kuznetsova I, Lugmayr A, Siira SJ, Rackham O, Filipovska A. CirGO: an alternative circular way of visualising gene ontology terms. BMC Bioinformatics [Internet]. 2019 Feb 18;20(1):84. Available from: https://doi.org/10.1186/s12859-019-2671-2

@@ -64,8 +64,8 @@ immune system process | 7.6615 | immune system process
 response to stress | 24.6003 | response to stress
 response to oxygen-containing compound | 9.8297 | response to stress
 regulation of signaling | 9.5272 | response to stress
-... | ... | ... 
-
+... | ... | ...   
+..
 
 
 
@@ -87,8 +87,7 @@ regulation of signaling | 9.5272 | response to stress
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.10.0    
 
 ## visualisation Example
-![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/tree/master/Py2%2B/docs/Visual_BP.svg)
-
+![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/Py2%2B/docs/Visual_BP.svg)
 
 
 ## Example Dataset
