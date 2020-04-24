@@ -10,7 +10,7 @@ Irina Kuznetsova, irina.kuznetsova@perkins.org.au
 Artur Lugmayr, lartur@acm.org  
 
 ```diff
-! Version 2.0 Python 3+ 24 April 2020 
+! Version 2.0 | Python 3+ | 24/04/2020 
 ```
 *This manual was designed to help people with limited or no programming experience to install the CirGO software*  
 

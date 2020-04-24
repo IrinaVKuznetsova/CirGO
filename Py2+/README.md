@@ -10,7 +10,7 @@ Irina Kuznetsova, irina.kuznetsova@perkins.org.au
 Artur Lugmayr, lartur@acm.org  
 
 ```diff
-! CirGO Version 1.0 Python 2+ 01 March 2018  
+! CirGO Version 1.0 | Python 2+ | 01/03/2018  
 ```
 *This manual was designed to help people with limited or no programming experience to install the CirGO software*  
 
@@ -108,7 +108,7 @@ Interactive (INT) command line option enables to run the CirGO software in the i
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Name & Proportion of Cellular component (inner ring)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3 )Name & Proportion of Molecular function (inner ring)   
 
-![Snapshot of -INT option](https://github.com/IrinaVKuznetsova/CirGO/tree/master/Py2%2B/docs/Wind_INT_option_github.svg)  
+![Snapshot of -INT option](https://github.com/IrinaVKuznetsova/CirGO/blob/master/Py2%2B/docs/Wind_INT_option_github.svg)     
 
  
 **Version control:**  
