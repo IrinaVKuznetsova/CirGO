@@ -14,7 +14,7 @@ Irina Kuznetsova, irina.kuznetsova@perkins.org.au
 Artur Lugmayr, lartur@acm.org  
 
 **CirGO manual was designed to help people with limited or no programming experience to install the CirGO software.**  
-* For CirGO installation instructions for Version 1.0 for [Python 2+](https://github.com/IrinaVKuznetsova/testCirGOpy3/tree/master/Py2%2B)  
+* For CirGO installation instructions for Version 1.0 for [Python 2+](https://github.com/IrinaVKuznetsova/CirGO/tree/master/Py2%2B)  
 * For CirGO installation instructions for Version 2.0 for [Python 3+](https://github.com/IrinaVKuznetsova/CirGO/tree/master/Py3%2B)  
 
  
@@ -87,7 +87,7 @@ regulation of signaling | 9.5272 | response to stress
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.10.0    
 
 ## visualisation Example
-![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/docs/Visual_BP.svg)
+![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/tree/master/Py2%2B/docs/Visual_BP.svg)
 
 
 
@@ -98,7 +98,7 @@ The example dataset was obtained from [GSE83471](https://www.ncbi.nlm.nih.gov/ge
 ## Copyright Notice
 This project is licensed under the terms of the **GNU version 3** general public license.
 
-## Cite  
+## [Cite](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2671-2#citeas)  
 Kuznetsova I, Lugmayr A, Siira SJ, Rackham O, Filipovska A. CirGO: an alternative circular way of visualising gene ontology terms. BMC Bioinformatics [Internet]. 2019 Feb 18;20(1):84. Available from: https://doi.org/10.1186/s12859-019-2671-2
  
 
