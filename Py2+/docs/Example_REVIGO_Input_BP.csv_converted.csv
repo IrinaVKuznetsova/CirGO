@@ -1,0 +1,156 @@
+description	log10pvalue	representative
+immune system process	7.6615	immune system process
+response to stress	24.6003	response to stress
+response to oxygen-containing compound	9.8297	response to stress
+regulation of signaling	9.5272	response to stress
+response to endoplasmic reticulum stress	8.6003	response to stress
+regulation of response to stimulus	14.0635	response to stress
+intracellular signal transduction	13.4841	response to stress
+response to abiotic stimulus	7.9788	response to stress
+cellular response to chemical stimulus	12.5528	response to stress
+cell surface receptor signaling pathway	9.399	response to stress
+response to endogenous stimulus	7.8477	response to stress
+cellular response to stress	18.4425	response to stress
+response to oxidative stress	10.6308	response to stress
+regulation of signal transduction	11.71	response to stress
+metabolic process	58.5287	metabolism
+catabolic process	17.6968	catabolism
+cellular process	39.8794	cellular process
+developmental process	10.51	developmental process
+growth	8.5544	growth
+locomotion	12.4179	locomotion
+macromolecular complex subunit organization	37.0405	macromolecular complex subunit organization
+protein-DNA complex subunit organization	10.6216	macromolecular complex subunit organization
+single-organism organelle organization	19.7447	macromolecular complex subunit organization
+membrane organization	8.9706	macromolecular complex subunit organization
+cellular component assembly	30.1506	macromolecular complex subunit organization
+supramolecular fiber organization	22.3507	macromolecular complex subunit organization
+cellular component biogenesis	36.5784	macromolecular complex subunit organization
+regulation of cellular component biogenesis	14.2034	macromolecular complex subunit organization
+macromolecular complex disassembly	8.6556	macromolecular complex subunit organization
+organelle fission	9.015	macromolecular complex subunit organization
+nucleosome organization	9.5017	macromolecular complex subunit organization
+regulation of organelle organization	21.5513	macromolecular complex subunit organization
+regulation of supramolecular fiber organization	11.9469	macromolecular complex subunit organization
+mitochondrion organization	11.1463	macromolecular complex subunit organization
+organelle organization	36.4248	macromolecular complex subunit organization
+cellular component disassembly	8.699	macromolecular complex subunit organization
+regulation of cellular component organization	29.3915	macromolecular complex subunit organization
+single-organism process	21.0334	single-organism process
+localization	40.1073	localization
+cellular localization	22.1618	cellular localization
+transport	33.3675	cellular localization
+mitochondrial transport	7.7212	cellular localization
+regulation of cellular component movement	17.7077	cellular localization
+hydrogen ion transmembrane transport	8.0757	cellular localization
+regulation of localization	16.3575	cellular localization
+endocytosis	11.2204	cellular localization
+organic substance transport	14.163	cellular localization
+nitrogen compound transport	13.9136	cellular localization
+vesicle-mediated transport	9.8182	cellular localization
+protein localization	20.2684	cellular localization
+macromolecule localization	21.5452	cellular localization
+amide transport	13.2668	cellular localization
+peptide transport	13.4067	cellular localization
+single-organism localization	15.5784	cellular localization
+single-organism cellular localization	7.8041	cellular localization
+localization of cell	13.1169	cellular localization
+cellular component organization or biogenesis	54.4789	cellular component organization or biogenesis
+biosynthetic process	28.9469	biosynthesis
+cell death	21.0915	cell death
+monocarboxylic acid metabolic process	10.8508	cell death
+nucleobase-containing small molecule metabolic process	14.7545	cell death
+carboxylic acid biosynthetic process	8.4306	cell death
+cellular lipid metabolic process	9.426	cell death
+cellular respiration	17.0325	cell death
+cell division	13.4802	cell death
+nucleoside triphosphate biosynthetic process	7.8508	cell death
+purine ribonucleoside monophosphate metabolic process	20.9957	cell death
+lipid oxidation	7.5058	cell death
+cell cycle	21.0	cell death
+chromosome segregation	7.752	cell death
+organic acid metabolic process	19.3615	cell death
+microtubule-based process	9.0737	cell death
+small molecule biosynthetic process	12.214	cell death
+cell cycle process	18.202	cell death
+actin filament-based process	20.4179	cell death
+movement of cell or subcellular component	16.9245	cell death
+apoptotic process	18.8996	cell death
+negative regulation of cellular process	22.684	negative regulation of cellular process
+heart process	7.8239	negative regulation of cellular process
+positive regulation of cellular process	21.0691	negative regulation of cellular process
+negative regulation of biological process	22.9393	negative regulation of cellular process
+positive regulation of biological process	21.4034	negative regulation of cellular process
+blood vessel morphogenesis	10.066	negative regulation of cellular process
+phosphate-containing compound metabolic process	20.9872	negative regulation of cellular process
+muscle system process	10.5654	negative regulation of cellular process
+regulation of cellular protein metabolic process	13.0004	negative regulation of cellular process
+regulation of cellular metabolic process	13.6536	negative regulation of cellular process
+circulatory system development	14.9788	negative regulation of cellular process
+regulation of protein metabolic process	13.5302	negative regulation of cellular process
+regulation of multicellular organismal process	14.4522	negative regulation of cellular process
+positive regulation of homeostatic process	8.618	negative regulation of cellular process
+regulation of homeostatic process	10.1701	negative regulation of cellular process
+homeostatic process	9.3054	negative regulation of cellular process
+regulation of cell communication	9.5045	negative regulation of cellular process
+cellular protein metabolic process	24.0159	negative regulation of cellular process
+regulation of metabolic process	14.1824	negative regulation of cellular process
+regulation of developmental process	15.0883	negative regulation of cellular process
+regulation of cell proliferation	9.71	negative regulation of cellular process
+positive regulation of molecular function	11.9547	negative regulation of cellular process
+regulation of molecular function	12.251	negative regulation of cellular process
+regulation of biological quality	13.3233	negative regulation of cellular process
+regulation of phosphorylation	8.6946	negative regulation of cellular process
+positive regulation of DNA metabolic process	10.2967	negative regulation of cellular process
+regulation of DNA metabolic process	7.4789	negative regulation of cellular process
+anatomical structure formation involved in morphogenesis	12.5017	negative regulation of cellular process
+regulation of growth	8.5513	negative regulation of cellular process
+striated muscle contraction	7.4271	negative regulation of cellular process
+protein phosphorylation	7.8729	negative regulation of cellular process
+regulation of phosphorus metabolic process	7.5768	negative regulation of cellular process
+generation of precursor metabolites and energy	19.3098	generation of precursor metabolites and energy
+cell proliferation	11.2495	cell proliferation
+cofactor metabolic process	16.9872	cofactor metabolism
+cellular metabolic process	54.2007	cellular metabolism
+phosphorus metabolic process	22.9469	cellular metabolism
+single-organism metabolic process	49.0405	cellular metabolism
+single-organism cellular process	53.3872	cellular metabolism
+primary metabolic process	42.3316	cellular metabolism
+organic substance metabolic process	48.219	cellular metabolism
+purine-containing compound metabolic process	10.9355	purine-containing compound metabolism
+rRNA metabolic process	10.0851	purine-containing compound metabolism
+organonitrogen compound metabolic process	43.1284	purine-containing compound metabolism
+organonitrogen compound biosynthetic process	25.3565	purine-containing compound metabolism
+nucleobase-containing compound metabolic process	17.091	purine-containing compound metabolism
+cellular amide metabolic process	28.7305	purine-containing compound metabolism
+nucleic acid metabolic process	9.1445	purine-containing compound metabolism
+peptide metabolic process	27.5157	purine-containing compound metabolism
+RNA processing	7.4711	purine-containing compound metabolism
+pyridine-containing compound metabolic process	7.9788	purine-containing compound metabolism
+cellular nitrogen compound metabolic process	29.3686	purine-containing compound metabolism
+ncRNA metabolic process	8.7212	purine-containing compound metabolism
+nitrogen compound metabolic process	31.0825	nitrogen compound metabolism
+coenzyme metabolic process	15.1175	coenzyme metabolism
+cellular catabolic process	16.9355	cellular catabolism
+regulation of cellular catabolic process	9.0137	cellular catabolism
+regulation of catabolic process	9.308	cellular catabolism
+single-organism carbohydrate metabolic process	8.0232	single-organism carbohydrate metabolism
+oxidation-reduction process	36.27	single-organism carbohydrate metabolism
+lipid metabolic process	7.9172	single-organism carbohydrate metabolism
+small molecule metabolic process	30.4672	single-organism carbohydrate metabolism
+organic substance biosynthetic process	27.327	organic substance biosynthesis
+single-organism biosynthetic process	12.3233	organic substance biosynthesis
+cellular macromolecule metabolic process	23.6126	organic substance biosynthesis
+macromolecule biosynthetic process	16.3969	organic substance biosynthesis
+cellular biosynthetic process	24.7399	organic substance biosynthesis
+macromolecule metabolic process	23.1811	organic substance biosynthesis
+cellular nitrogen compound biosynthetic process	15.6861	organic substance biosynthesis
+heterocycle metabolic process	18.5157	organic substance biosynthesis
+carbohydrate derivative metabolic process	17.3233	organic substance biosynthesis
+cellular aromatic compound metabolic process	19.153	organic substance biosynthesis
+protein metabolic process	21.0696	organic substance biosynthesis
+gene expression	13.6882	organic substance biosynthesis
+macromolecule modification	13.6038	organic substance biosynthesis
+organic cyclic compound metabolic process	19.5513	organic substance biosynthesis
+carbohydrate metabolic process	7.3904	organic substance biosynthesis
+cellular macromolecule biosynthetic process	15.098	organic substance biosynthesis

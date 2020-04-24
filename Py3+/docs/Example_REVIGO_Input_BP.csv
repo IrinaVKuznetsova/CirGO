@@ -1,0 +1,160 @@
+% WARNING - This is exported REVIGO data useful only for the specific purpose of constructing a TreeMap visualization.,,,,,,
+% Do not use this table as a general list of non-redundant GO categories, as it sets an extremely permissive ,,,,,
+% threshold to detect redundancies (c=0.10) and fill the 'representative' column, while normally c>=0.4 is recommended.,,,,,
+% To export a reduced-redundancy set of GO terms, go to the Scatterplot & Table tab, and export to CSV from there.,,,,
+term_ID,description,frequencyInDb,log10pvalue,uniqueness,dispensability,representative
+GO:0002376,immune system process,0.60%,-7.6615,0.994,0,immune system process
+GO:0006950,response to stress,4.58%,-24.6003,0.937,0,response to stress
+GO:1901700,response to oxygen-containing compound,0.50%,-9.8297,0.943,0.683,response to stress
+GO:0023051,regulation of signaling,0.93%,-9.5272,0.817,0.636,response to stress
+GO:0034976,response to endoplasmic reticulum stress,0.10%,-8.6003,0.915,0.564,response to stress
+GO:0048583,regulation of response to stimulus,1.12%,-14.0635,0.794,0.487,response to stress
+GO:0035556,intracellular signal transduction,4.00%,-13.4841,0.687,0.63,response to stress
+GO:0009628,response to abiotic stimulus,0.57%,-7.9788,0.947,0.448,response to stress
+GO:0070887,cellular response to chemical stimulus,1.01%,-12.5528,0.898,0.481,response to stress
+GO:0007166,cell surface receptor signaling pathway,0.92%,-9.399,0.73,0.641,response to stress
+GO:0009719,response to endogenous stimulus,0.53%,-7.8477,0.948,0.443,response to stress
+GO:0033554,cellular response to stress,2.97%,-18.4425,0.886,0.559,response to stress
+GO:0006979,response to oxidative stress,0.58%,-10.6308,0.941,0.679,response to stress
+GO:0009966,regulation of signal transduction,0.86%,-11.71,0.717,0.635,response to stress
+GO:0008152,metabolic process,75.39%,-58.5287,0.999,0,metabolism
+GO:0009056,catabolic process,4.82%,-17.6968,0.978,0,catabolism
+GO:0009987,cellular process,63.78%,-39.8794,0.998,0,cellular process
+GO:0032502,developmental process,2.81%,-10.51,0.994,0,developmental process
+GO:0040007,growth,0.32%,-8.5544,0.994,0,growth
+GO:0040011,locomotion,1.00%,-12.4179,0.994,0,locomotion
+GO:0043933,macromolecular complex subunit organization,2.37%,-37.0405,0.792,0,macromolecular complex subunit organization
+GO:0071824,protein-DNA complex subunit organization,0.24%,-10.6216,0.813,0.498,macromolecular complex subunit organization
+GO:1902589,single-organism organelle organization,1.40%,-19.7447,0.694,0.669,macromolecular complex subunit organization
+GO:0061024,membrane organization,0.76%,-8.9706,0.814,0.565,macromolecular complex subunit organization
+GO:0022607,cellular component assembly,2.48%,-30.1506,0.777,0.658,macromolecular complex subunit organization
+GO:0097435,supramolecular fiber organization,0.35%,-22.3507,0.746,0.518,macromolecular complex subunit organization
+GO:0044085,cellular component biogenesis,4.36%,-36.5784,0.825,0.653,macromolecular complex subunit organization
+GO:0044087,regulation of cellular component biogenesis,0.40%,-14.2034,0.721,0.486,macromolecular complex subunit organization
+GO:0032984,macromolecular complex disassembly,0.37%,-8.6556,0.725,0.628,macromolecular complex subunit organization
+GO:0048285,organelle fission,0.46%,-9.015,0.806,0.6,macromolecular complex subunit organization
+GO:0034728,nucleosome organization,0.13%,-9.5017,0.816,0.576,macromolecular complex subunit organization
+GO:0033043,regulation of organelle organization,0.50%,-21.5513,0.672,0.538,macromolecular complex subunit organization
+GO:1902903,regulation of supramolecular fiber organization,0.17%,-11.9469,0.65,0.697,macromolecular complex subunit organization
+GO:0007005,mitochondrion organization,0.42%,-11.1463,0.807,0.594,macromolecular complex subunit organization
+GO:0006996,organelle organization,3.60%,-36.4248,0.783,0.696,macromolecular complex subunit organization
+GO:0022411,cellular component disassembly,0.42%,-8.699,0.741,0.529,macromolecular complex subunit organization
+GO:0051128,regulation of cellular component organization,1.59%,-29.3915,0.669,0.618,macromolecular complex subunit organization
+GO:0044699,single-organism process,46.57%,-21.0334,0.997,0,single-organism process
+GO:0051179,localization,18.50%,-40.1073,0.995,0,localization
+GO:0051641,cellular localization,2.04%,-22.1618,0.923,0,cellular localization
+GO:0006810,transport,17.62%,-33.3675,0.899,0.6,cellular localization
+GO:0006839,mitochondrial transport,0.18%,-7.7212,0.937,0.27,cellular localization
+GO:0051270,regulation of cellular component movement,0.17%,-17.7077,0.693,0.268,cellular localization
+GO:1902600,hydrogen ion transmembrane transport,1.02%,-8.0757,0.862,0.324,cellular localization
+GO:0032879,regulation of localization,0.73%,-16.3575,0.787,0.312,cellular localization
+GO:0006897,endocytosis,0.24%,-11.2204,0.936,0.277,cellular localization
+GO:0071702,organic substance transport,4.98%,-14.163,0.914,0.423,cellular localization
+GO:0071705,nitrogen compound transport,1.77%,-13.9136,0.923,0.347,cellular localization
+GO:0016192,vesicle-mediated transport,1.09%,-9.8182,0.927,0.327,cellular localization
+GO:0008104,protein localization,2.63%,-20.2684,0.896,0.365,cellular localization
+GO:0033036,macromolecule localization,3.03%,-21.5452,0.92,0.385,cellular localization
+GO:0042886,amide transport,0.34%,-13.2668,0.932,0.689,cellular localization
+GO:0015833,peptide transport,0.30%,-13.4067,0.928,0.283,cellular localization
+GO:1902578,single-organism localization,5.92%,-15.5784,0.838,0.603,cellular localization
+GO:1902580,single-organism cellular localization,0.69%,-7.8041,0.847,0.556,cellular localization
+GO:0051674,localization of cell,0.63%,-13.1169,0.931,0.307,cellular localization
+GO:0071840,cellular component organization or biogenesis,8.57%,-54.4789,0.995,0,cellular component organization or biogenesis
+GO:0009058,biosynthetic process,31.61%,-28.9469,0.971,0.033,biosynthesis
+GO:0008219,cell death,0.46%,-21.0915,0.856,0.036,cell death
+GO:0032787,monocarboxylic acid metabolic process,2.49%,-10.8508,0.766,0.478,cell death
+GO:0055086,nucleobase-containing small molecule metabolic process,4.92%,-14.7545,0.734,0.46,cell death
+GO:0046394,carboxylic acid biosynthetic process,4.16%,-8.4306,0.734,0.644,cell death
+GO:0044255,cellular lipid metabolic process,2.70%,-9.426,0.798,0.247,cell death
+GO:0045333,cellular respiration,0.98%,-17.0325,0.809,0.218,cell death
+GO:0051301,cell division,1.23%,-13.4802,0.841,0.223,cell death
+GO:0009142,nucleoside triphosphate biosynthetic process,0.65%,-7.8508,0.71,0.675,cell death
+GO:0009167,purine ribonucleoside monophosphate metabolic process,1.92%,-20.9957,0.69,0.236,cell death
+GO:0034440,lipid oxidation,0.09%,-7.5058,0.85,0.606,cell death
+GO:0007049,cell cycle,1.89%,-21,0.834,0.2,cell death
+GO:0007059,chromosome segregation,0.48%,-7.752,0.855,0.201,cell death
+GO:0006082,organic acid metabolic process,9.09%,-19.3615,0.731,0.592,cell death
+GO:0007017,microtubule-based process,0.66%,-9.0737,0.851,0.208,cell death
+GO:0044283,small molecule biosynthetic process,5.68%,-12.214,0.799,0.654,cell death
+GO:0022402,cell cycle process,1.05%,-18.202,0.806,0.219,cell death
+GO:0030029,actin filament-based process,0.40%,-20.4179,0.858,0.171,cell death
+GO:0006928,movement of cell or subcellular component,0.97%,-16.9245,0.845,0.217,cell death
+GO:0006915,apoptotic process,0.41%,-18.8996,0.806,0.172,cell death
+GO:0048523,negative regulation of cellular process,1.83%,-22.684,0.756,0.042,negative regulation of cellular process
+GO:0003015,heart process,0.05%,-7.8239,0.936,0.673,negative regulation of cellular process
+GO:0048522,positive regulation of cellular process,1.59%,-21.0691,0.714,0.333,negative regulation of cellular process
+GO:0048519,negative regulation of biological process,1.98%,-22.9393,0.814,0.334,negative regulation of cellular process
+GO:0048518,positive regulation of biological process,1.74%,-21.4034,0.816,0.329,negative regulation of cellular process
+GO:0048514,blood vessel morphogenesis,0.12%,-10.066,0.827,0.674,negative regulation of cellular process
+GO:0006796,phosphate-containing compound metabolic process,13.11%,-20.9872,0.818,0.664,negative regulation of cellular process
+GO:0003012,muscle system process,0.08%,-10.5654,0.934,0.598,negative regulation of cellular process
+GO:0032268,regulation of cellular protein metabolic process,1.47%,-13.0004,0.725,0.33,negative regulation of cellular process
+GO:0031323,regulation of cellular metabolic process,11.66%,-13.6536,0.692,0.593,negative regulation of cellular process
+GO:0072359,circulatory system development,0.24%,-14.9788,0.833,0.663,negative regulation of cellular process
+GO:0051246,regulation of protein metabolic process,1.55%,-13.5302,0.758,0.453,negative regulation of cellular process
+GO:0051239,regulation of multicellular organismal process,0.63%,-14.4522,0.778,0.292,negative regulation of cellular process
+GO:0032846,positive regulation of homeostatic process,0.04%,-8.618,0.802,0.667,negative regulation of cellular process
+GO:0032844,regulation of homeostatic process,0.10%,-10.1701,0.85,0.595,negative regulation of cellular process
+GO:0042592,homeostatic process,1.66%,-9.3054,0.819,0.311,negative regulation of cellular process
+GO:0010646,regulation of cell communication,0.93%,-9.5045,0.789,0.312,negative regulation of cellular process
+GO:0044267,cellular protein metabolic process,14.29%,-24.0159,0.858,0.446,negative regulation of cellular process
+GO:0019222,regulation of metabolic process,11.94%,-14.1824,0.758,0.619,negative regulation of cellular process
+GO:0050793,regulation of developmental process,1.21%,-15.0883,0.747,0.314,negative regulation of cellular process
+GO:0042127,regulation of cell proliferation,0.31%,-9.71,0.787,0.277,negative regulation of cellular process
+GO:0044093,positive regulation of molecular function,0.89%,-11.9547,0.823,0.289,negative regulation of cellular process
+GO:0065009,regulation of molecular function,1.73%,-12.251,0.824,0.313,negative regulation of cellular process
+GO:0065008,regulation of biological quality,3.40%,-13.3233,0.811,0.345,negative regulation of cellular process
+GO:0042325,regulation of phosphorylation,0.47%,-8.6946,0.723,0.396,negative regulation of cellular process
+GO:0051054,positive regulation of DNA metabolic process,0.05%,-10.2967,0.726,0.682,negative regulation of cellular process
+GO:0051052,regulation of DNA metabolic process,0.25%,-7.4789,0.754,0.371,negative regulation of cellular process
+GO:0048646,anatomical structure formation involved in morphogenesis,0.41%,-12.5017,0.902,0.7,negative regulation of cellular process
+GO:0040008,regulation of growth,0.17%,-8.5513,0.842,0.255,negative regulation of cellular process
+GO:0006941,striated muscle contraction,0.03%,-7.4271,0.938,0.655,negative regulation of cellular process
+GO:0006468,protein phosphorylation,4.14%,-7.8729,0.798,0.551,negative regulation of cellular process
+GO:0051174,regulation of phosphorus metabolic process,0.58%,-7.5768,0.727,0.405,negative regulation of cellular process
+GO:0006091,generation of precursor metabolites and energy,1.94%,-19.3098,0.927,0.042,generation of precursor metabolites and energy
+GO:0008283,cell proliferation,0.39%,-11.2495,0.931,0.075,cell proliferation
+GO:0051186,cofactor metabolic process,3.99%,-16.9872,0.92,0.083,cofactor metabolism
+GO:0044237,cellular metabolic process,53.06%,-54.2007,0.909,0.084,cellular metabolism
+GO:0006793,phosphorus metabolic process,13.51%,-22.9469,0.905,0.124,cellular metabolism
+GO:0044710,single-organism metabolic process,31.68%,-49.0405,0.87,0.335,cellular metabolism
+GO:0044763,single-organism cellular process,27.54%,-53.3872,0.856,0.169,cellular metabolism
+GO:0044238,primary metabolic process,53.74%,-42.3316,0.967,0.12,cellular metabolism
+GO:0071704,organic substance metabolic process,58.36%,-48.219,0.967,0.119,cellular metabolism
+GO:0072521,purine-containing compound metabolic process,2.67%,-10.9355,0.867,0.087,purine-containing compound metabolism
+GO:0016072,rRNA metabolic process,0.97%,-10.0851,0.87,0.207,purine-containing compound metabolism
+GO:1901564,organonitrogen compound metabolic process,17.89%,-43.1284,0.905,0.217,purine-containing compound metabolism
+GO:1901566,organonitrogen compound biosynthetic process,14.06%,-25.3565,0.865,0.591,purine-containing compound metabolism
+GO:0006139,nucleobase-containing compound metabolic process,26.55%,-17.091,0.828,0.484,purine-containing compound metabolism
+GO:0043603,cellular amide metabolic process,6.88%,-28.7305,0.879,0.264,purine-containing compound metabolism
+GO:0090304,nucleic acid metabolic process,21.45%,-9.1445,0.812,0.597,purine-containing compound metabolism
+GO:0006518,peptide metabolic process,5.96%,-27.5157,0.851,0.439,purine-containing compound metabolism
+GO:0006396,RNA processing,3.21%,-7.4711,0.853,0.453,purine-containing compound metabolism
+GO:0072524,pyridine-containing compound metabolic process,1.35%,-7.9788,0.877,0.357,purine-containing compound metabolism
+GO:0034641,cellular nitrogen compound metabolic process,34.14%,-29.3686,0.854,0.415,purine-containing compound metabolism
+GO:0034660,ncRNA metabolic process,3.41%,-8.7212,0.853,0.385,purine-containing compound metabolism
+GO:0006807,nitrogen compound metabolic process,38.74%,-31.0825,0.97,0.088,nitrogen compound metabolism
+GO:0006732,coenzyme metabolic process,3.11%,-15.1175,0.911,0.089,coenzyme metabolism
+GO:0044248,cellular catabolic process,3.27%,-16.9355,0.896,0.09,cellular catabolism
+GO:0031329,regulation of cellular catabolic process,0.09%,-9.0137,0.793,0.555,cellular catabolism
+GO:0009894,regulation of catabolic process,0.15%,-9.308,0.814,0.58,cellular catabolism
+GO:0044723,single-organism carbohydrate metabolic process,2.46%,-8.0232,0.862,0.09,single-organism carbohydrate metabolism
+GO:0055114,oxidation-reduction process,15.06%,-36.27,0.85,0.3,single-organism carbohydrate metabolism
+GO:0006629,lipid metabolic process,3.52%,-7.9172,0.861,0.223,single-organism carbohydrate metabolism
+GO:0044281,small molecule metabolic process,15.14%,-30.4672,0.849,0.415,single-organism carbohydrate metabolism
+GO:1901576,organic substance biosynthetic process,30.37%,-27.327,0.899,0.093,organic substance biosynthesis
+GO:0044711,single-organism biosynthetic process,10.86%,-12.3233,0.836,0.462,organic substance biosynthesis
+GO:0044260,cellular macromolecule metabolic process,34.28%,-23.6126,0.854,0.198,organic substance biosynthesis
+GO:0009059,macromolecule biosynthetic process,19.55%,-16.3969,0.887,0.558,organic substance biosynthesis
+GO:0044249,cellular biosynthetic process,30.05%,-24.7399,0.855,0.658,organic substance biosynthesis
+GO:0043170,macromolecule metabolic process,39.49%,-23.1811,0.934,0.224,organic substance biosynthesis
+GO:0044271,cellular nitrogen compound biosynthetic process,22.50%,-15.6861,0.831,0.587,organic substance biosynthesis
+GO:0046483,heterocycle metabolic process,29.66%,-18.5157,0.89,0.26,organic substance biosynthesis
+GO:1901135,carbohydrate derivative metabolic process,6.32%,-17.3233,0.952,0.113,organic substance biosynthesis
+GO:0006725,cellular aromatic compound metabolic process,29.63%,-19.153,0.89,0.26,organic substance biosynthesis
+GO:0019538,protein metabolic process,18.49%,-21.0696,0.915,0.408,organic substance biosynthesis
+GO:0010467,gene expression,19.67%,-13.6882,0.92,0.417,organic substance biosynthesis
+GO:0043412,macromolecule modification,9.79%,-13.6038,0.929,0.331,organic substance biosynthesis
+GO:1901360,organic cyclic compound metabolic process,30.32%,-19.5513,0.937,0.188,organic substance biosynthesis
+GO:0005975,carbohydrate metabolic process,5.26%,-7.3904,0.947,0.108,organic substance biosynthesis
+GO:0034645,cellular macromolecule biosynthetic process,19.29%,-15.098,0.835,0.555,organic substance biosynthesis
