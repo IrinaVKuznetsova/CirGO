@@ -10,7 +10,7 @@ Irina Kuznetsova, irina.kuznetsova@perkins.org.au
 Artur Lugmayr, lartur@acm.org  
 
 ```diff
-! Version 2.0 **Python 3+** 24/04/2020  
+! Version 2.0 Python 3+ 24 April 2020 
 ```
 *This manual was designed to help people with limited or no programming experience to install the CirGO software*  
 
@@ -52,7 +52,7 @@ Running under Windows
 
 
 
-### CirGO PACKAGE USAGE
+### CirGO PACKAGE USAGE  
 
 There are three options on CirGO usage:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) Graphical User Interface (GUI);  
@@ -92,12 +92,11 @@ Interactive (INT) command line option enables to run the CirGO software in the i
 
 
 ### CirGO PACKAGE RE-USAGE  
-1. Open Anaconda Prompt terminal.
+1. Open Anaconda Prompt terminal  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Activate created environment): `> activate YourEnvirName`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to *CirGO_Wind_Unix* folder): `(YourEnvirName)> cd YOURPATH\CirGO_Wind_Unix`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Help page):`(YourEnvirName)> python CirGO.py –h`  
 
-![Snapshot of -INT option](https://github.com/IrinaVKuznetsova/CirGO/blob/master/docs/Wind_INT_option_github.svg)  
  
 **Version control CirGO Version 2.0 Python 3+:**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tested on Windows 10  
@@ -108,7 +107,7 @@ Interactive (INT) command line option enables to run the CirGO software in the i
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.10.1    
 
 
-## visualisation Example  
+## Visualisation Example  
 ![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/Py2%2B/docs/Visual_BP.svg)  
 
 ## Example Dataset  
