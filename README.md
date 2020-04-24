@@ -13,7 +13,7 @@ Software development by:
 Irina Kuznetsova, irina.kuznetsova@perkins.org.au  
 Artur Lugmayr, lartur@acm.org  
 
-**CirGO manual was designed to help people with limited or no programming experience to install the CirGO software.**  
+**CirGO manual was designed to help people with limited or no programming experience to install the CirGO software**  
 * For CirGO installation instructions for Version 1.0 for [Python 2+](https://github.com/IrinaVKuznetsova/CirGO/tree/master/Py2%2B)  
 * For CirGO installation instructions for Version 2.0 for [Python 3+](https://github.com/IrinaVKuznetsova/CirGO/tree/master/Py3%2B)  
 
@@ -21,7 +21,7 @@ Artur Lugmayr, lartur@acm.org
 General Usage Notes
 ------
 
-**Description:** CirGO (Circular Gene Ontology) is an alternative way of visualising GO terms in 2D space that is suitable for publishing and presenting gene expression Ontology data.  
+**Description:** CirGO (Circular Gene Ontology) is an alternative way of visualising GO terms in 2D space that is suitable for publishing and presenting gene expression Ontology data  
 
 
 
@@ -35,16 +35,16 @@ Brief Algorithm Description
 ------
 
 Briefly, CirGO visualisation algorithm consists of three steps that are described at the Supplementary Material of the [CirGO: an alternative circular way of visualising gene ontology terms](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2671-2) publication:   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) Formatting of the *csv* input file obtained from the TreeMap tab on [REVIGIO page](http://revigo.irb.hr/).    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) Formatting of the *csv* input file obtained from the TreeMap tab on [REVIGIO page](http://revigo.irb.hr/)    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Values calculation  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) GO visualisation as two-layer full hierarchies.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) GO visualisation as two-layer full hierarchies  
 
 
 Input Data Format
 ------
 
 #### REVIGIO csv input file 
-Note: four header lines are omitted.  
+Note: four header lines are omitted  
 
 | term_ID | description | frequencyInDb | log10pvalue | uniqueness | dispensability | representative
 | - | - | - | - | - | - | - | 
@@ -56,7 +56,7 @@ GO:0023051 | regulation of signaling | 0.93% | -9.5272 | 0.817 | 0.636 | respons
 
 
 #### Formatted three columns input for visualisation   
-Note: there is no header.  
+Note: there is no header  
 
 | | | |
 |-|-|-|
@@ -91,11 +91,11 @@ regulation of signaling | 9.5272 | response to stress
 
 
 ## Example Dataset
-The example dataset was obtained from [GSE83471](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83471).
+The example dataset was obtained from [GSE83471](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83471)
 
 
 ## Copyright Notice
-This project is licensed under the terms of the **GNU version 3** general public license.
+This project is licensed under the terms of the **GNU version 3** general public license
 
 ## [Cite](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2671-2#citeas)  
 Kuznetsova I, Lugmayr A, Siira SJ, Rackham O, Filipovska A. CirGO: an alternative circular way of visualising gene ontology terms. BMC Bioinformatics [Internet]. 2019 Feb 18;20(1):84. Available from: https://doi.org/10.1186/s12859-019-2671-2

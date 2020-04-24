@@ -10,67 +10,9 @@ Irina Kuznetsova, irina.kuznetsova@perkins.org.au
 Artur Lugmayr, lartur@acm.org  
 
 ```diff
-! Version 2.0 Python 3+ 24/04/2020  
+! Version 2.0 **Python 3+** 24/04/2020  
 ```
 *This manual was designed to help people with limited or no programming experience to install the CirGO software*  
-
-
- 
-General Usage Notes
-------
-
-**Description:** CirGO (Circular Gene Ontology) is an alternative way of visualising GO terms in 2D space that is suitable for publishing and presenting gene expression Ontology data.  
-
-```diff
-!**Dependencies:** The software package was developed under **Python 3.7** with specific versions of **NumPy 1.18.1**, and **Matplotlib 3.2.1**. CirGO software can be run on *Windows, Unix\Linux, or Mac OS*. There are two folders that contains scripts requires for running the CirGO software on:  
-```
-
-* [Windows and Unix](https://github.com/IrinaVKuznetsova/CirGO/tree/master/CirGO_Wind_Unix)   
-* [Mac OS](https://github.com/IrinaVKuznetsova/CirGO/tree/master/CirGO_Mac) contains own scripts  
-
-**Software architecture:**  
-CirGO can be run on Windows, Unix/Linux and Mac OS as:   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) Graphical User Interface (GUI)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Command Line (CMD)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) Interactive Command Line (INT)  
-
-Brief Algorithm Description
-------
-
-Briefly, CirGO visualisation algorithm consists of three steps that are described at the Supplementary Material of the [CirGO: an alternative circular way of visualising gene ontology terms](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2671-2) publication:   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) Formatting of the *csv* input file obtained from the TreeMap tab on [REVIGIO page](http://revigo.irb.hr/)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Values calculation  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) GO visualisation as two-layer full hierarchies  
-
-
-Input Data Format
-------
-
-#### REVIGIO csv input file  
-Note: four header lines are omitted  
-
-| term_ID | description | frequencyInDb | log10pvalue | uniqueness | dispensability | representative
-| - | - | - | - | - | - | - | 
-GO:0002376 | immune system process | 0.6% | -7.6615 | 0.994 | 0 | immune system process
-GO:0006950 | response to stress | 4.58%  | -24.6003 | 0.937 | 0 | response to stress
-GO:1901700 | response to oxygen-containing compound | 0.5%  | -9.8297 | 0.943 | 0.683 | response to stress
-GO:0023051 | regulation of signaling | 0.93% | -9.5272 | 0.817 | 0.636 | response to stress
-... | ... | ... | ... | ... | ... | ...  
-
-
-#### Formatted three columns input for visualisation   
-Note: there is no header  
-
-| | | |
-|-|-|-|
-immune system process | 7.6615 | immune system process
-response to stress | 24.6003 | response to stress
-response to oxygen-containing compound | 9.8297 | response to stress
-regulation of signaling | 9.5272 | response to stress
-... | ... | ... 
-
-
-
 
 
 Running under Windows  
@@ -79,9 +21,8 @@ Running under Windows
 ### INSTALLATION GUIDE PYTHON 3+  
 
 
-```diff
-! 1. Download  [Anaconda distribution](https://www.anaconda.com/distribution/) also called Anaconda Prompt for Python 3.7 on your Windows machine  
-```
+
+1. Download  [Anaconda distribution](https://www.anaconda.com/distribution/) also called Anaconda Prompt for Python 3.7 on your Windows machine  
 
 1. Open Anaconda Prompt terminal  
 1. Create a virtual environment with Python 3.7 version. Virtual environment acts as an isolated platform where you can install all required packages for the specific project without modifying existing projects. For example, if your computer has Python 2.7, you can easily install Python 3+ without affecting Python 2+  
@@ -149,23 +90,14 @@ Interactive (INT) command line option enables to run the CirGO software in the i
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Name & Proportion of Cellular component (inner ring)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3 )Name & Proportion of Molecular function (inner ring)   
 
-![Snapshot of -INT option](https://github.com/IrinaVKuznetsova/CirGO/blob/master/docs/Wind_INT_option_github.svg)  
- 
-**Version control:**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tested on Windows 10  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conda 4.8.3  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python 3.7.6  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NumPy 1.18.1  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 3.2.1    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.10.0  
- 
 
-### CirGO PACKAGE RE-USAGE
+### CirGO PACKAGE RE-USAGE  
 1. Open Anaconda Prompt terminal.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Activate created environment): `> activate YourEnvirName`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to *CirGO_Wind_Unix* folder): `(YourEnvirName)> cd YOURPATH\CirGO_Wind_Unix`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Help page):`(YourEnvirName)> python CirGO.py –h`  
 
+![Snapshot of -INT option](https://github.com/IrinaVKuznetsova/CirGO/blob/master/docs/Wind_INT_option_github.svg)  
  
 **Version control CirGO Version 2.0 Python 3+:**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tested on Windows 10  
@@ -176,16 +108,13 @@ Interactive (INT) command line option enables to run the CirGO software in the i
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.10.1    
 
 
-## visualisation Example
+## visualisation Example  
 ![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/Py2%2B/docs/Visual_BP.svg)  
 
-
-
-## Example Dataset
+## Example Dataset  
 The example dataset was obtained from [GSE83471](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83471)  
 
-
-## Copyright Notice
+## Copyright Notice  
 This project is licensed under the terms of the **GNU version 3** general public license  
 
 ## Cite  
