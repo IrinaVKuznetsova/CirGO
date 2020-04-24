@@ -6,19 +6,19 @@ https://github.com/IrinaVKuznetsova/CirGO.git
   
 Software development by:  
 
-Irina Kuznetsova, irina.kuznetsova@perkins.org.au 
+Irina Kuznetsova, irina.kuznetsova@perkins.org.au  
 Artur Lugmayr, lartur@acm.org  
 
 ```diff
-! CirGO Version 1.0 **Python 2+** 01/03/2018
+! CirGO Version 1.0 Python 2+ 01 March 2018  
 ```
-*This manual was designed to help people with limited or no programming experience to install the CirGO software*
+*This manual was designed to help people with limited or no programming experience to install the CirGO software*  
 
 
 Running under Windows  
 ======
 
-### INSTALLATION GUIDE
+### INSTALLATION GUIDE  
 
 1. Download  [Anaconda distribution](https://www.anaconda.com/download/) also called Anaconda Prompt for Python 2.7 on your Windows machine  
 
@@ -108,7 +108,8 @@ Interactive (INT) command line option enables to run the CirGO software in the i
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Name & Proportion of Cellular component (inner ring)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3 )Name & Proportion of Molecular function (inner ring)   
 
-![Snapshot of -INT option](https://github.com/IrinaVKuznetsova/CirGO/blob/master/docs/Wind_INT_option_github.svg)  
+![Snapshot of -INT option](https://github.com/IrinaVKuznetsova/CirGO/tree/master/Py2%2B/docs/Wind_INT_option_github.svg)  
+
  
 **Version control:**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tested on Windows 7 Professional / Windows 10  
@@ -147,11 +148,11 @@ Running under Unix/Linux
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to *docs* folder): `(SelectEnvirName)$ cd YOURPATH\CirGO-master\docs`  
 
 9. Create a source distribution for the CirGO package. This step generates two folders *CirGO.egg-info* and *dist*    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Create a source distribution) : `(SelectEnvirName)$ python setup.py sdist`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Create a source distribution) : `(SelectEnvirName)$ python setup.py sdist`  
 
 10. Navigate to the *dist* folder and install CirGO package.  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the *dist* folder):`(SelectEnvirName)$ cd dist`     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install CirGO package);`(SelectEnvirName)$ pip install CirGO-0.1.0.tar.gz`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Install CirGO package);`(SelectEnvirName)$ pip install CirGO-0.1.0.tar.gz`  
 
 11. Navigate to the *CirGO_Wind_Unix* folder.   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to the *CirGO_Wind_Unix* folder):`(SelectEnvirName)$ cd YOURPATH\CirGO-master\CirGO_Unix`  
@@ -183,7 +184,7 @@ Command Line (CMD) requires a user to provide parameters in the command line spa
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example:** `(SelectEnvirName)$ python CirGO.py -inputFile Example_REVIGO_Input_BP.csv -outputFile Visual_BP.svg -fontSize 6.5 -numCat 40 -legend "Name & Proportion of Biological process (inner ring)"`  
 
 
-#### (3) Interactive Command Line (INT) 
+#### (3) Interactive Command Line (INT)  
 Interactive (INT) command line option enables to run the CirGO software in the interactive mode  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Interactive command line (INT)):`(SelectEnvirName)$ python  
 CirGO.py -int`  
@@ -267,7 +268,7 @@ Running under Mac
 #### (1) Graphical User Interface (GUI)  
 Graphical User Interface (GUI) is the simplest option for visualising GO terms. When the command *python CirGO.py -gui* is executed an interactive window will pop-up. The required parameters can be changed or left as default, an input file can be opened with the *Open File* button, and visualised by pressing *Visualize* button. The output file will be automatically saved in *svg* format to the same folder with the input file, or the output file name can be changed by pressing *Save output as SVG* button. Please note, that the legend name should be changed depending on what process (biological process, cellular component, or molecular function) is visualised. To leave GUI press *Exit* 
 &nbsp;  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Graphical user interface):`(SelectEnvirName)$ python CirGO.py –gui`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Graphical user interface):`(SelectEnvirName)$ python CirGO.py –gui`  
 
 #### (2) Command Line (CMD)  
 Command Line (CMD) requires a user to provide parameters in the command line space as described at the help page:  
@@ -277,10 +278,10 @@ Command Line (CMD) requires a user to provide parameters in the command line spa
 &nbsp;  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example:** `(SelectEnvirName)$ python CirGO.py -inputFile Example_REVIGO_Input_BP.csv -outputFile Visual_BP.svg -fontSize 6.5 -numCat 40 -legend "Name & Proportion of Biological process (inner ring)"`  
 
-#### (3) Interactive Command Line (INT) 
+#### (3) Interactive Command Line (INT)  
 Interactive (INT) command line option enables to run the CirGO software in the interactive mode  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Interactive command line (INT)):`(SelectEnvirName)$ python  
-CirGO.py -int`
+CirGO.py -int`  
 &nbsp;  
 **CirGO [-int]**  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Parameters:**  
@@ -307,17 +308,17 @@ CirGO.py -int`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.8.1    
 
 
-## visualisation Example
+## visualisation Example  
 ![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/Py2%2B/docs/Visual_BP.svg)  
 
-## Example Dataset
+## Example Dataset  
 The example dataset was obtained from [GSE83471](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83471)  
 
-## Copyright Notice
+## Copyright Notice  
 This project is licensed under the terms of the **GNU version 3** general public license  
 
 ## Cite  
-Kuznetsova I, Lugmayr A, Siira SJ, Rackham O, Filipovska A. CirGO: an alternative circular way of visualising gene ontology terms. BMC Bioinformatics [Internet]. 2019 Feb 18;20(1):84. Available from: https://doi.org/10.1186/s12859-019-2671-2
+Kuznetsova I, Lugmayr A, Siira SJ, Rackham O, Filipovska A. CirGO: an alternative circular way of visualising gene ontology terms. BMC Bioinformatics [Internet]. 2019 Feb 18;20(1):84. Available from: https://doi.org/10.1186/s12859-019-2671-2  
  
 
 
