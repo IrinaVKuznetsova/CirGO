@@ -103,7 +103,7 @@ Interactive (INT) command line option enables to run the CirGO software in the i
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Conda 4.8.3  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python 3.7  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NumPy 1.18.1  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 3.2.1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 3.2.1  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.10.1    
 
 
