@@ -1,17 +1,16 @@
 # CirGO
 
 ```diff
-! *CirGO (Circular Gene Ontology) Version 1.0 for Python 2+ is available 01/03/2018
+! *CirGO (Circular Gene Ontology) Version 1.0 for Python 2+ is available 01/03/2018  
 ! *CirGO (Circular Gene Ontology) Version 2.0 for Pyhton 3+ is available 24/04/2020  
 ```
 
 © Copyright (C) 2020  
 https://github.com/IrinaVKuznetsova/CirGO.git  
   
-Software development by:  
-
-Irina Kuznetsova, irina.kuznetsova@perkins.org.au  
-Artur Lugmayr, lartur@acm.org  
+Software development:  
+Irina Kuznetsova | email: irina.kuznetsova@perkins.org.au  
+Artur Lugmayr | email: lartur@acm.org  
 
 **CirGO manual was designed to help people with limited or no programming experience to install the CirGO software**  
 * For CirGO installation instructions for Version 1.0 for [Python 2+](https://github.com/IrinaVKuznetsova/CirGO/tree/master/Py2%2B)  
@@ -43,7 +42,7 @@ Briefly, CirGO visualisation algorithm consists of three steps that are describe
 Input Data Format
 ------
 
-#### REVIGIO csv input file 
+#### REVIGIO csv input file  
 Note: four header lines are omitted  
 
 | term_ID | description | frequencyInDb | log10pvalue | uniqueness | dispensability | representative
@@ -86,19 +85,17 @@ regulation of signaling | 9.5272 | response to stress
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matplotlib 3.2.1  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.10.0    
 
-## visualisation Example
-![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/Py2%2B/docs/Visual_BP.svg)
-
+## Visualisation Example
+![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/Py2%2B/docs/Visual_BP.svg)  
 
 ## Example Dataset
-The example dataset was obtained from [GSE83471](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83471)
-
+The example dataset was obtained from [GSE83471](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE83471)  
 
 ## Copyright Notice
-This project is licensed under the terms of the **GNU version 3** general public license
+This project is licensed under the terms of the **GNU version 3** general public license  
 
-## [Cite](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2671-2#citeas)  
-Kuznetsova I, Lugmayr A, Siira SJ, Rackham O, Filipovska A. CirGO: an alternative circular way of visualising gene ontology terms. BMC Bioinformatics [Internet]. 2019 Feb 18;20(1):84. Available from: https://doi.org/10.1186/s12859-019-2671-2
+## Cite  
+Kuznetsova I, Lugmayr A, Siira SJ, Rackham O, Filipovska A. CirGO: an alternative circular way of visualising gene ontology terms. BMC Bioinformatics [Internet]. 2019 Feb 18;20(1):84. Available from: https://doi.org/10.1186/s12859-019-2671-2  
  
 
 

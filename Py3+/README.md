@@ -4,13 +4,13 @@
 © Copyright (C) 2020  
 https://github.com/IrinaVKuznetsova/CirGO.git  
   
-Software development by:  
+Software development  
 
-Irina Kuznetsova, irina.kuznetsova@perkins.org.au  
-Artur Lugmayr, lartur@acm.org  
+Irina Kuznetsova | email: irina.kuznetsova@perkins.org.au  
+Artur Lugmayr | email: lartur@acm.org  
 
 ```diff
-! Version 2.0 | Python 3+ | 24/04/2020 
+! Version 2.0 | Python 3+ | 24/04/2020  
 ```
 *This manual was designed to help people with limited or no programming experience to install the CirGO software*  
 
@@ -92,7 +92,7 @@ Interactive (INT) command line option enables to run the CirGO software in the i
 
 
 ### CirGO PACKAGE RE-USAGE  
-1. Open Anaconda Prompt terminal  
+Open Anaconda Prompt terminal  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Activate created environment): `> activate YourEnvirName`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Navigate to *CirGO_Wind_Unix* folder): `(YourEnvirName)> cd YOURPATH\CirGO_Wind_Unix`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Example** (Help page):`(YourEnvirName)> python CirGO.py –h`  

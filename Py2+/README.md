@@ -4,10 +4,10 @@
 © Copyright (C) 2018  
 https://github.com/IrinaVKuznetsova/CirGO.git  
   
-Software development by:  
+Software development:  
 
-Irina Kuznetsova, irina.kuznetsova@perkins.org.au  
-Artur Lugmayr, lartur@acm.org  
+Irina Kuznetsova | email: irina.kuznetsova@perkins.org.au  
+Artur Lugmayr | email: lartur@acm.org  
 
 ```diff
 ! CirGO Version 1.0 | Python 2+ | 01/03/2018  
@@ -308,7 +308,7 @@ CirGO.py -int`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Seaborn 0.8.1    
 
 
-## visualisation Example  
+## Visualisation Example  
 ![visualisation of GO terms for Biological Process](https://github.com/IrinaVKuznetsova/CirGO/blob/master/Py2%2B/docs/Visual_BP.svg)  
 
 ## Example Dataset  
