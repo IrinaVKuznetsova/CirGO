@@ -73,6 +73,8 @@ def ConvertToThreeCoulmnsInput(inputfilename, outputfilename='', outputfilepath=
                     row[3]  = abs(float(row[3]))
                     # - replace any eventual " in the representative
                     row[6] = row[6].replace("\"", "")
+                    # Replace "null" in representative with representative term
+                    row[6] = row[6].replace("null", row[1])
 
                     # write the final output file
                     outputFileWriter.writerow([row[1], row[3], row[6]])
