@@ -16,7 +16,7 @@ setup(name='CirGO',
       author_email='irina.kuznetsova@uwa.edu.au', 
       license='GPL-3.0', 
       install_requires=[
-        "numpy == 1.13.1",
+        "numpy == 1.22.0",
         "matplotlib == 2.1.0",
         "seaborn == 0.8.1", 
 	"argparse == 1.1"
