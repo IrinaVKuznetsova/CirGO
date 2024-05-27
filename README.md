@@ -5,11 +5,11 @@
 ! *CirGO (Circular Gene Ontology) Version 2.0 for Pyhton 3+ is available 24/04/2020  
 ```
 
-© Copyright (C) 2020  
+Â© Copyright (C) 2020  
 https://github.com/IrinaVKuznetsova/CirGO.git  
   
 Software development:  
-Irina Kuznetsova | email: irina.kuznetsova@perkins.org.au  
+Irina Kuznetsova | email: irina.kuznetsova@curtin.edu.au  (not valid anymore email: irina.kuznetsova@perkins.org.au, May 2024)  
 Artur Lugmayr | email: lartur@acm.org  
 
 **CirGO manual was designed to help people with limited or no programming experience to install the CirGO software**  
